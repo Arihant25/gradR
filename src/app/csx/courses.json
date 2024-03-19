@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Data Structures and Algorithms",
+        "semester": "Sem 1-2 2024",
+        "color": "red"
+    },
+    {
+        "name": "Linear Algebra",
+        "semester": "Sem 1-2 2024",
+        "color": "yellow"
+    },
+    {
+        "name": "Computer Systems Organisation",
+        "semester": "Sem 1-2 2024",
+        "color": "indigo"
+    },
+    {
+        "name": "Introduction to IoT",
+        "semester": "Sem 1-2 2024",
+        "color": "green"
+    },
+    {
+        "name": "Introduction to Software Systems",
+        "semester": "Sem 1-2 2024",
+        "color": "purple"
+    },
+    {
+        "name": "Probability and Statistics",
+        "semester": "Sem 2-1 2024",
+        "color": "yellow"
+    },
+    {
+        "name": "Data and Applications",
+        "semester": "Sem 2-1 2024",
+        "color": "blue"
+    },
+    {
+        "name": "Automata Theory",
+        "semester": "Sem 2-1 2024",
+        "color": "teal"
+    },
+    {
+        "name": "AAD",
+        "semester": "Sem 2-1 2024",
+        "color": "orange"
+    },
+    {
+        "name": "OSN",
+        "semester": "Sem 2-1 2024",
+        "color": "pink"
+    }
+]
