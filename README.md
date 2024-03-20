@@ -1,6 +1,6 @@
 # Grades Calculator IIITH
 
-This is a  web app to calculate grades for courses taken at IIIT Hyderabad.
+This is a web app to calculate grades for courses taken at IIIT Hyderabad.
 
 > Since the grading scheme for every course changes every year, this app is specifically designed to calculate grades for the courses taken by the UG 2023 batch.
 
