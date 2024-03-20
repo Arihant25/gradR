@@ -13,14 +13,14 @@ const NavBar = () => {
   );
 };
 
-const IIoTPage = () => {
+const ISSPage = () => {
   const [formData, setformData] = useState({
-    quiz: '',
-    midSem: '',
-    assignment: '',
-    endSem: '',
+    assignment1: '',
+    assignment2: '',
+    midSemTheory: '',
+    midSemLab: '',
     project: '',
-    labs: Array(10).fill('')
+    labs: Array(4).fill('')
   });
 
   const handleInputChange = (e, index = null) => {
@@ -29,10 +29,6 @@ const IIoTPage = () => {
         const updatedLabs = [...formData.labs];
         updatedLabs[index] = e.target.value;
         setformData({ ...formData, labs: updatedLabs });
-      } else if (e.target.name.startsWith('assignment')) {
-        const updatedAssignments = [...formData.assignment];
-        updatedAssignments[index] = e.target.value;
-        setformData({ ...formData, assignment: updatedAssignments });
       }
     } else {
       setformData({ ...formData, [e.target.name]: e.target.value });
@@ -49,13 +45,12 @@ const IIoTPage = () => {
       }
     }
     // Calculate the total marks
-    let ass = (parseInt(formData.assignment) / 15) * 7.5;
-    let lab = (formData.labs[0]/25 + formData.labs[1]/25 + formData.labs[2]/25 + formData.labs[3]/25 + formData.labs[4]/25 + formData.labs[5]/25 + formData.labs[6]/25 + formData.labs[7]/25 + formData.labs[8]/25 + formData.labs[9]/25) * 2;
-    let quiz = (parseInt(formData.quiz) / 15) * 7.5;
-    let mid =  (parseInt(formData.midSem) / 20) * 15;
-    let end =  (parseInt(formData.endSem) / 100) * 30;
-    let final = ass + lab + quiz + mid + end;
-    console.log(quiz, mid, end, lab, final);
+    let ass = (parseInt(formData.assignment1) / 100 + parseInt(formData.assignment2) / 100) * 10;
+    let mid =  (parseInt(formData.midSemTheory) / 100 + parseInt(formData.midSemLab) / 100) * 10;
+    let proj =  (parseInt(formData.project) / 100) * 30;
+    let lab = (formData.labs[0]/100 + formData.labs[1]/100 + formData.labs[2]/100 + formData.labs[3]/100) * 7.5;
+    let final = ass + lab + mid + proj;
+    console.log(ass, mid, proj, lab, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 
@@ -67,43 +62,43 @@ const IIoTPage = () => {
             Back
           </button>
         </nav>
-        <h2 className="text-5xl font-bold mb-6 text-center"> IIoT </h2>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Quiz (out of 15) </h3>
+        <h2 className="text-5xl font-bold mb-6 text-center"> ISS </h2>
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold mb-2"> Assignment 1 (out of 100) </h3>
           <input
             type="number"
-            name="quiz"
-            value={formData.quiz}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Mid Sem (out of 20) </h3>
-          <input
-            type="number"
-            name="midSem"
-            value={formData.midSem}
+            name="assignment1"
+            value={formData.assignment1}
             onChange={handleInputChange}
             className="border border-gray-300 rounded-md p-2 w-full"
           />
         </div>
         <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2"> Assignment (out of 15) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Assignment 2 (out of 100) </h3>
           <input
             type="number"
-            name="assignment"
-            value={formData.assignment}
+            name="assignment2"
+            value={formData.assignment2}
             onChange={handleInputChange}
             className="border border-gray-300 rounded-md p-2 w-full"
           />
         </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> End Sem (out of 100) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Mid Sem Theory (out of 100) </h3>
           <input
             type="number"
-            name="endSem"
-            value={formData.endSem}
+            name="midSemTheory"
+            value={formData.midSemTheory}
+            onChange={handleInputChange}
+            className="border border-gray-300 rounded-md p-2 w-full"
+          />
+        </div>
+        <div className="mb-4">
+          <h3 className="text-lg font-semibold mb-2"> Mid Sem Lab (out of 100) </h3>
+          <input
+            type="number"
+            name="midSemLab"
+            value={formData.midSemLab}
             onChange={handleInputChange}
             className="border border-gray-300 rounded-md p-2 w-full"
           />
@@ -119,7 +114,7 @@ const IIoTPage = () => {
           />
         </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Labs (out of 25 each)</h3>
+          <h3 className="text-lg font-semibold mb-2">Labs (out of 100 each)</h3>
           <div className="grid grid-cols-4 gap-4">
             {formData.labs.map((value, index) => (
               <input
@@ -145,4 +140,4 @@ const IIoTPage = () => {
   );
 };
 
-export default IIoTPage;
+export default ISSPage;
