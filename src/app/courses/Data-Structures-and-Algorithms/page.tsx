@@ -1,12 +1,13 @@
 'use client';
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 const NavBar = () => {
-  const router = useRouter();
+  const navigate = useNavigate();
 
   return (
     <nav className="w-full bg-white py-3 text-right">
-      <button onClick={() => router.back()} className="text-indigo-600">
+      <button onClick={() => navigate(-1)} className="text-indigo-600">
         Back
       </button>
     </nav>
