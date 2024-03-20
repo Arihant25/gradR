@@ -119,7 +119,7 @@ const IIoTPage = () => {
           />
         </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Labs (out of 25 each)</h3>
+          <h3 className="text-lg font-semibold mb-2"> Labs (out of 25 each) </h3>
           <div className="grid grid-cols-4 gap-4">
             {formData.labs.map((value, index) => (
               <input
