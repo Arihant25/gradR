@@ -13,7 +13,7 @@ const NavBar = () => {
   );
 };
 
-const LAPage = () => {
+const CSOPage = () => {
   const [formData, setformData] = useState({
     quiz1: '',
     midSem: '',
@@ -22,13 +22,6 @@ const LAPage = () => {
     endSem: '',
     assignment1: '',
     assignment2: '',
-    assignment3: '',
-    assignment4: '',
-    assignment5: '',
-    assignment6: '',
-    assignment7: '',
-    assignment8: '',
-    assignment9: '',
   });
 
   const handleInputChange = (e, index = null) => {
@@ -49,15 +42,13 @@ const LAPage = () => {
         formData[key] = formData[key] === '' ? 0 : formData[key];
     }
     // Calculate the total marks
-    let firstHalfAss = ((parseInt(formData.assignment1) / 10) + (parseInt(formData.assignment2) / 20) + (parseInt(formData.assignment3) / 20)) * (20/7);
-    let secondHalfAss = ((parseInt(formData.assignment4) / 15) + (parseInt(formData.assignment5) / 15) + (parseInt(formData.assignment6) / 15) + (parseInt(formData.assignment7) / 15)) * (20/7);
-    let lastHalfAss = ((parseInt(formData.assignment8) / 25) + (parseInt(formData.assignment9) / 100)) * (5 / 2);
+    let firstHalfAss = ((parseInt(formData.assignment1) / 10) + (parseInt(formData.assignment2) / 20)) * 10;
     let mid = (parseInt(formData.midSem) / 15) * 20;
     let end = (parseInt(formData.endSem) / 100) * 30;
     let tutQuiz = (parseInt(formData.tutorialQuiz) / 15) * 5;
     let quiz = ((parseInt(formData.quiz1) / 15) + (parseInt(formData.quiz2) / 15)) * 10;
     let final = firstHalfAss + secondHalfAss + lastHalfAss + tutQuiz + mid + end + quiz;
-    console.log(firstHalfAss, secondHalfAss, lastHalfAss, tutQuiz, mid, end, quiz, final);
+    console.log(firstHalfAss+secondHalfAss+lastHalfAss, tutQuiz, mid, end, quiz, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 
@@ -69,7 +60,7 @@ const LAPage = () => {
             Back
           </button>
         </nav>
-        <h2 className="text-5xl font-bold mb-6 text-center"> LA </h2>
+        <h2 className="text-5xl font-bold mb-6 text-center"> Computer Systems Organisation </h2>
         <div className="mb-4">
           <h3 className="text-lg font-semibold mb-2"> Assignment 1 (out of 10) </h3>
           <input
@@ -86,76 +77,6 @@ const LAPage = () => {
             type="number"
             name="assignment2"
             value={formData.assignment2}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 3 (out of 20) </h3>
-          <input
-            type="number"
-            name="assignment3"
-            value={formData.assignment3}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 4 (out of 15) </h3>
-          <input
-            type="number"
-            name="assignment4"
-            value={formData.assignment4}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 5 (out of 15) </h3>
-          <input
-            type="number"
-            name="assignment5"
-            value={formData.assignment5}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 6 (out of 20) </h3>
-          <input
-            type="number"
-            name="assignment6"
-            value={formData.assignment6}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 7 (out of 10) </h3>
-          <input
-            type="number"
-            name="assignment7"
-            value={formData.assignment7}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 8 (out of 25) </h3>
-          <input
-            type="number"
-            name="assignment8"
-            value={formData.assignment8}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 9 (out of 100) </h3>
-          <input
-            type="number"
-            name="assignment9"
-            value={formData.assignment9}
             onChange={handleInputChange}
             className="border border-gray-300 rounded-md p-2 w-full"
           />
@@ -221,4 +142,4 @@ const LAPage = () => {
   );
 };
 
-export default LAPage;
+export default CSOPage;
