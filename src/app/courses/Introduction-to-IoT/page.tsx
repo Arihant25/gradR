@@ -1,6 +1,6 @@
 'use client';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
 const NavBar = () => {
   const router = useRouter();
 
@@ -43,19 +43,20 @@ const IIoTPage = () => {
     // Set the default value of each to 0
     for (let key in formData) {
       if (Array.isArray(formData[key])) {
-        formData[key] = formData[key].map((value) => (value === '' ? 0 : value));
+        formData[key] = formData[key].map((value: string | number) => (value === '' ? 0 : value));
       } else {
         formData[key] = formData[key] === '' ? 0 : formData[key];
       }
     }
     // Calculate the total marks
-    let ass = (parseInt(formData.assignment) / 15) * 7.5;
-    let lab = (formData.labs[0]/25 + formData.labs[1]/25 + formData.labs[2]/25 + formData.labs[3]/25 + formData.labs[4]/25 + formData.labs[5]/25 + formData.labs[6]/25 + formData.labs[7]/25 + formData.labs[8]/25 + formData.labs[9]/25) * 2;
+    let assignments = parseInt(formData.assignment) / 15 * 7.5;
+    let lab = (formData.labs[0] / 25 + formData.labs[1] / 25 + formData.labs[2] / 25 + formData.labs[3] / 25 + formData.labs[4] / 25 + formData.labs[5] / 25 + formData.labs[6] / 25 + formData.labs[7] / 25 + formData.labs[8] / 25 + formData.labs[9] / 25) * 2;
     let quiz = (parseInt(formData.quiz) / 15) * 7.5;
-    let mid =  (parseInt(formData.midSem) / 20) * 15;
-    let end =  (parseInt(formData.endSem) / 100) * 30;
-    let final = ass + lab + quiz + mid + end;
-    console.log(quiz, mid, end, lab, final);
+    let mid = (parseInt(formData.midSem) / 20) * 15;
+    let end = (parseInt(formData.endSem) / 100) * 30;
+    let project = (parseInt(formData.project) / 100) * 20;
+    let final = assignments + lab + quiz + mid + end + project;
+    console.log(quiz, mid, end, lab, project, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 

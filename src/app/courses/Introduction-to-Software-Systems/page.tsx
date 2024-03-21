@@ -1,6 +1,6 @@
 'use client';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
 const NavBar = () => {
   const router = useRouter();
 
@@ -45,12 +45,12 @@ const ISSPage = () => {
       }
     }
     // Calculate the total marks
-    let ass = (parseInt(formData.assignment1) / 100 + parseInt(formData.assignment2) / 100) * 10;
-    let mid =  (parseInt(formData.midSemTheory) / 100 + parseInt(formData.midSemLab) / 100) * 10;
-    let proj =  (parseInt(formData.project) / 100) * 30;
-    let lab = (formData.labs[0]/100 + formData.labs[1]/100 + formData.labs[2]/100 + formData.labs[3]/100) * 7.5;
-    let final = ass + lab + mid + proj;
-    console.log(ass, mid, proj, lab, final);
+    let assignments = ((parseInt(formData.assignment1) / 100 * 12) + (parseInt(formData.assignment2) / 100) * 8);
+    let mid = ((parseInt(formData.midSemTheory) / 100) + (parseInt(formData.midSemLab) / 100)) * 15;
+    let proj = (parseInt(formData.project) / 100 * 30);
+    let labs = ((formData.labs[0] / 100 + formData.labs[1] / 100) + (formData.labs[2] / 100 + formData.labs[3] / 100)) * 5;
+    let final = assignments + labs + mid + proj;
+    console.log(assignments, mid, proj, labs, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 
