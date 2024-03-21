@@ -15,13 +15,13 @@ const NavBar = () => {
 
 const CSOPage = () => {
   const [formData, setformData] = useState({
-    quiz1: '',
-    midSem: '',
-    quiz2: '',
-    tutorialQuiz: '',
-    endSem: '',
     assignment1: '',
     assignment2: '',
+    quiz1: '',
+    quiz2: '',
+    midSem: '',
+    endSem: '',
+    labExam: '',
   });
 
   const handleInputChange = (e, index = null) => {
@@ -42,13 +42,13 @@ const CSOPage = () => {
         formData[key] = formData[key] === '' ? 0 : formData[key];
     }
     // Calculate the total marks
-    let firstHalfAss = ((parseInt(formData.assignment1) / 10) + (parseInt(formData.assignment2) / 20)) * 10;
-    let mid = (parseInt(formData.midSem) / 15) * 20;
+    let ass = ((parseInt(formData.assignment1) / 100) + (parseInt(formData.assignment2) / 100)) * 10;
+    let mid = (parseInt(formData.midSem) / 60) * 20;
     let end = (parseInt(formData.endSem) / 100) * 30;
-    let tutQuiz = (parseInt(formData.tutorialQuiz) / 15) * 5;
-    let quiz = ((parseInt(formData.quiz1) / 15) + (parseInt(formData.quiz2) / 15)) * 10;
-    let final = firstHalfAss + secondHalfAss + lastHalfAss + tutQuiz + mid + end + quiz;
-    console.log(firstHalfAss+secondHalfAss+lastHalfAss, tutQuiz, mid, end, quiz, final);
+    let lab = (parseInt(formData.labExam) / 100) * 15;
+    let quiz = ((parseInt(formData.quiz1) / 30) + (parseInt(formData.quiz2) / 100)) * (15/2);
+    let final = ass + lab + mid + end + quiz;
+    console.log(ass, lab, mid, end, quiz, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 
@@ -62,7 +62,7 @@ const CSOPage = () => {
         </nav>
         <h2 className="text-5xl font-bold mb-6 text-center"> Computer Systems Organisation </h2>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 1 (out of 10) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Assignment 1 (out of 100) </h3>
           <input
             type="number"
             name="assignment1"
@@ -72,7 +72,7 @@ const CSOPage = () => {
           />
         </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Assignment 2 (out of 20) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Assignment 2 (out of 100) </h3>
           <input
             type="number"
             name="assignment2"
@@ -82,7 +82,7 @@ const CSOPage = () => {
           />
         </div>
         <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2"> Quiz 1 (out of 15) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Quiz 1 (out of 30) </h3>
           <input
             type="number"
             name="quiz1"
@@ -91,18 +91,8 @@ const CSOPage = () => {
             className="border border-gray-300 rounded-md p-2 w-full"
           />
         </div>
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2"> MidSem (out of 15) </h3>
-          <input
-            type="number"
-            name="midSem"
-            value={formData.midSem}
-            onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
-          />
-        </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Quiz 2 (out of 15) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Quiz 2 (out of 100) </h3>
           <input
             type="number"
             name="quiz2"
@@ -111,12 +101,12 @@ const CSOPage = () => {
             className="border border-gray-300 rounded-md p-2 w-full"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Tutorial Quiz (out of 15) </h3>
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold mb-2"> MidSem (out of 60) </h3>
           <input
             type="number"
-            name="tutorialQuiz"
-            value={formData.tutorialQuiz}
+            name="midSem"
+            value={formData.midSem}
             onChange={handleInputChange}
             className="border border-gray-300 rounded-md p-2 w-full"
           />
@@ -127,6 +117,16 @@ const CSOPage = () => {
             type="number"
             name="endSem"
             value={formData.endSem}
+            onChange={handleInputChange}
+            className="border border-gray-300 rounded-md p-2 w-full"
+          />
+        </div>
+        <div className="mb-4">
+          <h3 className="text-lg font-semibold mb-2"> Lab Exam (out of 100) </h3>
+          <input
+            type="number"
+            name="labExam"
+            value={formData.labExam}
             onChange={handleInputChange}
             className="border border-gray-300 rounded-md p-2 w-full"
           />
