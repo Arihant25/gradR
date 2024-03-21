@@ -1,6 +1,16 @@
 'use client';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
+interface FormData {
+  quiz: string;
+  midSem: string;
+  assignment: string;
+  endSem: string;
+  project: string;
+  labs: string[];
+}
+
 const NavBar = () => {
   const router = useRouter();
 
@@ -14,7 +24,7 @@ const NavBar = () => {
 };
 
 const IIoTPage = () => {
-  const [formData, setformData] = useState({
+  const [formData, setformData] = useState<FormData>({
     quiz: '',
     midSem: '',
     assignment: '',
@@ -22,17 +32,27 @@ const IIoTPage = () => {
     project: '',
     labs: Array(10).fill('')
   });
+  
+  const [progress, setProgress] = useState(0);
 
-  const handleInputChange = (e, index = null) => {
+  const handleScroll = () => {
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const progress = (scrollTop / scrollHeight) * 100;
+    setProgress(progress);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>, index: number | null = null) => {
     if (index !== null) {
       if (e.target.name.startsWith('lab')) {
         const updatedLabs = [...formData.labs];
         updatedLabs[index] = e.target.value;
         setformData({ ...formData, labs: updatedLabs });
-      } else if (e.target.name.startsWith('assignment')) {
-        const updatedAssignments = [...formData.assignment];
-        updatedAssignments[index] = e.target.value;
-        setformData({ ...formData, assignment: updatedAssignments });
       }
     } else {
       setformData({ ...formData, [e.target.name]: e.target.value });
@@ -43,7 +63,7 @@ const IIoTPage = () => {
     // Set the default value of each to 0
     for (let key in formData) {
       if (Array.isArray(formData[key])) {
-        formData[key] = formData[key].map((value: string | number) => (value === '' ? 0 : value));
+        formData[key] = formData[key].map((value) => (value === '' ? 0 : value));
       } else {
         formData[key] = formData[key] === '' ? 0 : formData[key];
       }
@@ -61,83 +81,88 @@ const IIoTPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center items-center text-black">
-      <div className="bg-white p-8 rounded-lg shadow-md">
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-black">
+      <div className="bg-white p-4 sm:p-8 rounded-lg shadow-md max-w-6xl w-full">
         <nav className="w-full bg-white p-4 text-right">
           <button onClick={() => history.back()} className="text-indigo-600">
             Back
           </button>
         </nav>
-        <h2 className="text-5xl font-bold mb-6 text-center"> IIoT </h2>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Quiz (out of 15) </h3>
+        <div className="mb-8">
+          <h2 className="text-2xl sm:text-5xl font-bold text-center">IIoT</h2>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mt-4">
+            <div className="bg-indigo-600 h-2.5 rounded-full transition-all duration-500" style={{ width: `${progress}%` }}></div>
+          </div>
+        </div>
+        <div className="mb-8 animate-fade-in">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Quiz (out of 15)</h3>
           <input
             type="number"
             name="quiz"
             value={formData.quiz}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Mid Sem (out of 20) </h3>
+        <div className="mb-8 animate-fade-in animate-delay-100">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Mid Sem (out of 20)</h3>
           <input
             type="number"
             name="midSem"
             value={formData.midSem}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2"> Assignment (out of 15) </h3>
+        <div className="mb-8 animate-fade-in animate-delay-200">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Assignment (out of 15)</h3>
           <input
             type="number"
             name="assignment"
             value={formData.assignment}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> End Sem (out of 100) </h3>
+        <div className="mb-8 animate-fade-in animate-delay-300">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">End Sem (out of 100)</h3>
           <input
             type="number"
             name="endSem"
             value={formData.endSem}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Project (out of 100) </h3>
+        <div className="mb-8 animate-fade-in animate-delay-400">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Project (out of 100)</h3>
           <input
             type="number"
             name="project"
             value={formData.project}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Labs (out of 25 each) </h3>
-          <div className="grid grid-cols-4 gap-4">
+        <div className="mb-8 animate-fade-in animate-delay-500">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Labs (out of 25 each)</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {formData.labs.map((value, index) => (
               <input
                 key={index}
                 type="number"
-                name={`lab${index + 1} `}
+                name={`lab${index + 1}`}
                 value={value}
                 onChange={(e) => handleInputChange(e, index)}
-                className="border border-gray-300 rounded-md p-2"
-                placeholder={`Lab ${index + 1} `}
+                className="border border-gray-300 rounded-md p-2 w-full font-mono"
+                placeholder={`Lab ${index + 1}`}
               />
             ))}
           </div>
         </div>
         <button
           onClick={calculateMarks}
-          className="bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors duration-300"
+          className="bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors duration-300 mt-4"
         >
           Submit
         </button>

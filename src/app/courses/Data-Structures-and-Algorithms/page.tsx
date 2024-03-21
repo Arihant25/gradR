@@ -1,6 +1,18 @@
 'use client';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
+interface FormData {
+  quiz1: string;
+  midSemTheory: string;
+  midSemLab: string;
+  quiz2: string;
+  endSemTheory: string;
+  endSemLab: string;
+  labs: string[];
+  assignments: string[];
+}
+
 const NavBar = () => {
   const router = useRouter();
 
@@ -14,7 +26,7 @@ const NavBar = () => {
 };
 
 const DSAPage = () => {
-  const [formData, setformData] = useState({
+  const [formData, setformData] = useState<FormData>({
     quiz1: '',
     midSemTheory: '',
     midSemLab: '',
@@ -25,7 +37,21 @@ const DSAPage = () => {
     assignments: Array(5).fill(''),
   });
 
-  const handleInputChange = (e, index = null) => {
+  const [progress, setProgress] = useState(0);
+
+  const handleScroll = () => {
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const progress = (scrollTop / scrollHeight) * 100;
+    setProgress(progress);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>, index: number | null = null) => {
     if (index !== null) {
       if (e.target.name.startsWith('lab')) {
         const updatedLabs = [...formData.labs];
@@ -62,109 +88,114 @@ const DSAPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center items-center text-black">
-      <div className="bg-white p-8 rounded-lg shadow-md">
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-black">
+      <div className="bg-white p-4 sm:p-8 rounded-lg shadow-md max-w-5xl w-full">
         <nav className="w-full bg-white p-4 text-right">
           <button onClick={() => history.back()} className="text-indigo-600">
             Back
           </button>
         </nav>
-        <h2 className="text-5xl font-bold mb-6 text-center">DSA</h2>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Quiz 1 (out of 100)</h3>
+        <div className="mb-6">
+          <h2 className="text-2xl sm:text-5xl font-bold text-center">DSA</h2>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mt-4">
+            <div className="bg-indigo-600 h-2.5 rounded-full transition-all duration-500 sticky top-0" style={{ width: `${progress}%` }}></div>
+          </div>
+        </div>
+        <div className="mb-6 animate-fade-in">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Quiz 1 (out of 100)</h3>
           <input
             type="number"
             name="quiz1"
             value={formData.quiz1}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Mid Sem Theory (out of 140)</h3>
+        <div className="mb-6 animate-fade-in animate-delay-100">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Mid Sem Theory (out of 140)</h3>
           <input
             type="number"
             name="midSemTheory"
             value={formData.midSemTheory}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Mid Sem Lab (out of 450)</h3>
+        <div className="mb-6 animate-fade-in animate-delay-200">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Mid Sem Lab (out of 450)</h3>
           <input
             type="number"
             name="midSemLab"
             value={formData.midSemLab}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2">Quiz 2</h3>
+        <div className="mb-6 animate-fade-in animate-delay-300">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Quiz 2</h3>
           <input
             type="number"
             name="quiz2"
             value={formData.quiz2}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">End Sem Theory</h3>
+        <div className="mb-6 animate-fade-in animate-delay-400">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">End Sem Theory</h3>
           <input
             type="number"
             name="endSemTheory"
             value={formData.endSemTheory}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">End Sem Lab</h3>
+        <div className="mb-6 animate-fade-in animate-delay-500">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">End Sem Lab</h3>
           <input
             type="number"
             name="endSemLab"
             value={formData.endSemLab}
             onChange={handleInputChange}
-            className="border border-gray-300 rounded-md p-2 w-full"
+            className="border border-gray-300 rounded-md p-2 w-full font-mono"
           />
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Labs (out of 200 each)</h3>
-          <div className="grid grid-cols-4 gap-4">
+        <div className="mb-6 animate-fade-in animate-delay-600">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Labs (out of 200 each)</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {formData.labs.map((value, index) => (
               <input
                 key={index}
                 type="number"
-                name={`lab${index + 1} `}
+                name={`lab${index + 1}`}
                 value={value}
                 onChange={(e) => handleInputChange(e, index)}
-                className="border border-gray-300 rounded-md p-2"
-                placeholder={`Lab ${index + 1} `}
+                className="border border-gray-300 rounded-md p-2 w-full font-mono"
+                placeholder={`Lab ${index + 1}`}
               />
             ))}
           </div>
         </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">Assignments (out of 200 each)</h3>
-          <div className="grid grid-cols-5 gap-4">
+        <div className="mb-6 animate-fade-in animate-delay-700">
+          <h3 className="text-base sm:text-lg font-semibold mb-2">Assignments (out of 200 each)</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
             {formData.assignments.map((value, index) => (
               <input
                 key={index}
                 type="number"
-                name={`assignment${index + 1} `}
+                name={`assignment${index + 1}`}
                 value={value}
                 onChange={(e) => handleInputChange(e, index)}
-                className="border border-gray-300 rounded-md p-2"
-                placeholder={`Assignment ${index + 1} `}
+                className="border border-gray-300 rounded-md p-2 w-full font-mono"
+                placeholder={`Assignment ${index + 1}`}
               />
             ))}
           </div>
         </div>
         <button
           onClick={calculateMarks}
-          className="bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors duration-300"
+          className="bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors duration-300 mt-4"
         >
           Submit
         </button>

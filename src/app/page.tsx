@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500">
       {/* GitHub link */}
-      <div className="fixed top-0 right-0 m-4">
+      <div className="fixed top-0 right-0 m-4 sm:m-6 md:m-8">
         <a
           href="https://github.com/Arihant25/grades-calculator-iiith"
           target="_blank"
@@ -20,23 +20,39 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <div className="flex-grow flex flex-col justify-center items-center">
+      <div className="flex-grow flex flex-col justify-center items-center px-4 sm:px-8 md:px-12 lg:px-16">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-white mb-2">Welcome to</h1>
-          <h2 className="text-8xl font-extrabold text-white">Grades Calculator IIITH</h2>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">
+            Welcome to
+          </h1>
+          <h2 className="text-4xl sm:text-6xl md:text-8xl font-extrabold text-white">
+            Grades Calculator IIITH
+          </h2>
         </div>
         <div className="text-center mb-8">
-          <h3 className="text-3xl font-bold text-white mb-8">Choose your Branch</h3>
-          <Link href="/csx" className="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-6">
+            Choose your Branch
+          </h3>
+          <Link
+            href="/csx"
+            className="bg-white text-indigo-600 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200"
+          >
             CSX
           </Link>
-
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="text-white py-4 text-center">
-        <p>Made with 💖 by Arihant and <a href="https://github.com/Arihant25/grades-calculator-iiith/graphs/contributors" className="text-yellow-200 hover:text-yellow-500 transition-colors duration-200">others</a></p>
+      <footer className="text-white py-4 text-center px-4 sm:px-8 md:px-12 lg:px-16">
+        <p>
+          Made with 💖 by Arihant and{' '}
+          <a
+            href="https://github.com/Arihant25/grades-calculator-iiith/graphs/contributors"
+            className="text-yellow-200 hover:text-yellow-500 transition-colors duration-200"
+          >
+            others
+          </a>
+        </p>
       </footer>
     </div>
   );
