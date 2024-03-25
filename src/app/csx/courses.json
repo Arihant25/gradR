@@ -1,5 +1,25 @@
 [
     {
+        "name": "Real Analysis",
+        "semester": "Sem 1-1 2023",
+        "color": "red"
+    },
+    {
+        "name": "C Programming",
+        "semester": "Sem 1-1 2023",
+        "color": "yellow"
+    },
+    {
+        "name": "Digital Systems and Microcontrollers",
+        "semester": "Sem 1-1 2023",
+        "color": "indigo"
+    },
+    {
+        "name": "Discrete Structures",
+        "semester": "Sem 1-1 2023",
+        "color": "green"
+    },
+    {
         "name": "Data Structures and Algorithms",
         "semester": "Sem 1-2 2024",
         "color": "red"

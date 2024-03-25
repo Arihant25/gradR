@@ -87,6 +87,12 @@ const CSXPage: React.FC = () => {
             <div className="absolute top-20 bg-white rounded-lg shadow-xl z-10 text-black text-center border-2 border-gray-300">
               <div
                 className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 1-1 2023')}
+              >
+                Sem 1-1 2023
+              </div>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
                 onClick={() => selectSemester('Sem 1-2 2024')}
               >
                 Sem 1-2 2024
