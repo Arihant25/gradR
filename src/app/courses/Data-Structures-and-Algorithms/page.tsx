@@ -69,6 +69,10 @@ const DSAPage = () => {
     }
   };
 
+  const handleWheel = (e: React.WheelEvent<HTMLInputElement>) => {
+    (e.target as HTMLInputElement).blur();
+  };
+
   const calculateMarks = () => {
     // Set the default value of each to 0
     for (let key in formData) {
@@ -111,6 +115,7 @@ const DSAPage = () => {
               name="quiz1"
               value={formData.quiz1}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -121,6 +126,7 @@ const DSAPage = () => {
               name="midSemTheory"
               value={formData.midSemTheory}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -131,6 +137,7 @@ const DSAPage = () => {
               name="midSemLab"
               value={formData.midSemLab}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -141,6 +148,7 @@ const DSAPage = () => {
               name="quiz2"
               value={formData.quiz2}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -151,6 +159,7 @@ const DSAPage = () => {
               name="endSemTheory"
               value={formData.endSemTheory}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -161,6 +170,7 @@ const DSAPage = () => {
               name="endSemLab"
               value={formData.endSemLab}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>

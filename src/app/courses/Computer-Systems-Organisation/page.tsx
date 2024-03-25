@@ -55,6 +55,10 @@ const CSOPage = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const handleWheel = (e: React.WheelEvent<HTMLInputElement>) => {
+    (e.target as HTMLInputElement).blur();
+  };
+
   const calculateMarks = () => {
     // Set the default value of each to 0
     for (let key in formData) {
@@ -93,6 +97,7 @@ const CSOPage = () => {
               name="assignment1"
               value={formData.assignment1}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -103,6 +108,7 @@ const CSOPage = () => {
               name="assignment2"
               value={formData.assignment2}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -113,6 +119,7 @@ const CSOPage = () => {
               name="quiz1"
               value={formData.quiz1}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -123,6 +130,7 @@ const CSOPage = () => {
               name="quiz2"
               value={formData.quiz2}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -133,6 +141,7 @@ const CSOPage = () => {
               name="midSem"
               value={formData.midSem}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -143,6 +152,7 @@ const CSOPage = () => {
               name="endSem"
               value={formData.endSem}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -153,6 +163,7 @@ const CSOPage = () => {
               name="labExam"
               value={formData.labExam}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>

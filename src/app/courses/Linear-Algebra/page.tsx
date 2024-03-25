@@ -87,6 +87,10 @@ const LAPage = () => {
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 
+  const handleWheel = (e: React.WheelEvent<HTMLInputElement>) => {
+    (e.target as HTMLInputElement).blur();
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 text-black">
       <div className="fixed top-0 left-0 w-full h-1 bg-gray-200">
@@ -109,6 +113,7 @@ const LAPage = () => {
               name="quiz1"
               value={formData.quiz1}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -119,6 +124,7 @@ const LAPage = () => {
               name="midSem"
               value={formData.midSem}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -129,6 +135,7 @@ const LAPage = () => {
               name="quiz2"
               value={formData.quiz2}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -139,6 +146,7 @@ const LAPage = () => {
               name="tutorialQuiz"
               value={formData.tutorialQuiz}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -149,6 +157,7 @@ const LAPage = () => {
               name="endSem"
               value={formData.endSem}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -161,6 +170,7 @@ const LAPage = () => {
                   name="assignment1"
                   value={formData.assignment1}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 1'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -171,6 +181,7 @@ const LAPage = () => {
                   name="assignment2"
                   value={formData.assignment2}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 2'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -181,6 +192,7 @@ const LAPage = () => {
                   name="assignment3"
                   value={formData.assignment3}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 3'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -191,6 +203,7 @@ const LAPage = () => {
                   name="assignment4"
                   value={formData.assignment4}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 4'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -201,6 +214,7 @@ const LAPage = () => {
                   name="assignment5"
                   value={formData.assignment5}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 5'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -211,6 +225,7 @@ const LAPage = () => {
                   name="assignment6"
                   value={formData.assignment6}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 6'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -221,6 +236,7 @@ const LAPage = () => {
                   name="assignment7"
                   value={formData.assignment7}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 7'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -231,6 +247,7 @@ const LAPage = () => {
                   name="assignment8"
                   value={formData.assignment8}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 8'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />
@@ -241,6 +258,7 @@ const LAPage = () => {
                   name="assignment9"
                   value={formData.assignment9}
                   onChange={handleInputChange}
+              onWheel={handleWheel}
                   placeholder='Assignment 9'
                   className="border border-gray-300 rounded-md p-2 w-full font-mono"
                 />

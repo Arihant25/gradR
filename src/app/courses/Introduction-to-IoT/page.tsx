@@ -60,6 +60,10 @@ const IIoTPage = () => {
     }
   };
 
+  const handleWheel = (e: React.WheelEvent<HTMLInputElement>) => {
+    (e.target as HTMLInputElement).blur();
+  };
+
   const calculateMarks = () => {
     // Set the default value of each to 0
     for (let key in formData) {
@@ -103,6 +107,7 @@ const IIoTPage = () => {
               name="quiz"
               value={formData.quiz}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -113,6 +118,7 @@ const IIoTPage = () => {
               name="midSem"
               value={formData.midSem}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -123,6 +129,7 @@ const IIoTPage = () => {
               name="assignment"
               value={formData.assignment}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -133,6 +140,7 @@ const IIoTPage = () => {
               name="endSem"
               value={formData.endSem}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -143,6 +151,7 @@ const IIoTPage = () => {
               name="project"
               value={formData.project}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>

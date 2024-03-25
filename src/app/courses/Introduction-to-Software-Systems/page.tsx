@@ -80,6 +80,10 @@ const ISSPage = () => {
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
   };
 
+  const handleWheel = (e: React.WheelEvent<HTMLInputElement>) => {
+    (e.target as HTMLInputElement).blur();
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 text-black">
       <div className="fixed top-0 left-0 w-full h-1 bg-gray-200">
@@ -102,6 +106,7 @@ const ISSPage = () => {
               name="assignment1"
               value={formData.assignment1}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -112,6 +117,7 @@ const ISSPage = () => {
               name="assignment2"
               value={formData.assignment2}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -122,6 +128,7 @@ const ISSPage = () => {
               name="midSemTheory"
               value={formData.midSemTheory}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -132,6 +139,7 @@ const ISSPage = () => {
               name="midSemLab"
               value={formData.midSemLab}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
@@ -142,6 +150,7 @@ const ISSPage = () => {
               name="project"
               value={formData.project}
               onChange={handleInputChange}
+              onWheel={handleWheel}
               className="border border-gray-300 rounded-md p-2 w-full font-mono"
             />
           </div>
