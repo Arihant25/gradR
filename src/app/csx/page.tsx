@@ -68,10 +68,13 @@ const CSXPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <header className="bg-indigo-600 py-4">
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
+      <header className="bg-gradient-to-r from-indigo-600 to-blue-500 py-6 shadow-lg">
         <div className="container mx-auto flex justify-center relative">
-          <div className="flex items-center text-xl sm:text-3xl lg:text-5xl font-semibold cursor-pointer text-white" onClick={toggleDropdown}>
+          <div
+            className="flex items-center text-xl sm:text-3xl lg:text-5xl font-semibold cursor-pointer text-white shadow-md bg-gradient-to-r from-indigo-700 to-blue-600 rounded-lg px-6 py-4"
+            onClick={toggleDropdown}
+          >
             {currentSemester}
             <div className="ml-2 cursor-pointer" onClick={toggleDropdown}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 sm:h-8 w-6 sm:w-8">
@@ -81,40 +84,61 @@ const CSXPage: React.FC = () => {
           </div>
 
           {showDropdown && (
-            <div className="absolute top-16 bg-white rounded-md shadow-lg z-10 text-black text-center">
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 1-2 2024')}>
+            <div className="absolute top-20 bg-white rounded-lg shadow-xl z-10 text-black text-center border-2 border-gray-300">
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 1-2 2024')}
+              >
                 Sem 1-2 2024
               </div>
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 2-1 2024')}>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 2-1 2024')}
+              >
                 Sem 2-1 2024
               </div>
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 2-2 2025')}>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 2-2 2025')}
+              >
                 Sem 2-2 2025
               </div>
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 3-1 2025')}>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 3-1 2025')}
+              >
                 Sem 3-1 2025
               </div>
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 3-2 2026')}>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 3-2 2026')}
+              >
                 Sem 3-2 2026
               </div>
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 4-1 2026')}>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 4-1 2026')}
+              >
                 Sem 4-1 2026
               </div>
-              <div className="py-2 px-6 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer" onClick={() => selectSemester('Sem 4-2 2027')}>
+              <div
+                className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
+                onClick={() => selectSemester('Sem 4-2 2027')}
+              >
                 Sem 4-2 2027
               </div>
             </div>
           )}
         </div>
       </header>
-      <main className="container mx-auto py-8 px-5">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+      <main className="container mx-auto py-10 px-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
           {semesterCourses.map((course) => (
-            <Link href={"courses/" + course.name.replace(/\s/g, '-')} key={course.name}>
+            <Link href={`courses/${course.name.replace(/\s/g, '-')}`} key={course.name}>
               <div
-                className={`${colorClasses[course.color]} rounded-lg shadow-md p-4 sm:p-6 cursor-pointer flex justify-center items-center hover:scale-105 hover:drop-shadow-lg transition duration-200 h-full`}
+                className={`${colorClasses[course.color]} rounded-lg shadow-xl p-6 sm:p-8 cursor-pointer flex justify-center items-center hover:scale-105 hover:shadow-2xl transition duration-200 h-full border-2 border-gray-300 transform-gpu rotate-x-12`}
               >
-                <h3 className="text-lg sm:text-2xl font-semibold">{course.name}</h3>
+                <h3 className="text-lg sm:text-2xl font-semibold text-gray-900">{course.name}</h3>
               </div>
             </Link>
           ))}
