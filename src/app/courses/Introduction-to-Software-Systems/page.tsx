@@ -60,7 +60,7 @@ const ISSPage = () => {
     }
     // Calculate the total marks
     let assignments = (parseInt(formData.assignment1) / 100) * 12 + (parseInt(formData.assignment2) / 100) * 8;
-    let mid = ((parseInt(formData.midSemTheory) / 100) + (parseInt(formData.midSemLab) / 100)) * 15;
+    let mid = ((parseInt(formData.midSemTheory) / 90) + (parseInt(formData.midSemLab) / 100)) * 15;
     let proj = (parseInt(formData.project) / 100) * 30;
     let labs = ((formData.labs[0] / 100 + formData.labs[1] / 100) + (formData.labs[2] / 100 + formData.labs[3] / 100)) * 5;
     let final = assignments + labs + mid + proj;
@@ -117,7 +117,7 @@ const ISSPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-300">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Mid Sem Lab (out of 100)</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Mid Sem Lab (out of 90)</h3>
             <input
               type="number"
               name="midSemLab"
