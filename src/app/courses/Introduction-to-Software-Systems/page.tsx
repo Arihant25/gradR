@@ -106,7 +106,7 @@ const ISSPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-200">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Mid Sem Theory (out of 100)</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Mid Sem Theory (out of 90)</h3>
             <input
               type="number"
               name="midSemTheory"
@@ -117,7 +117,7 @@ const ISSPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-300">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Mid Sem Lab (out of 90)</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Mid Sem Lab (out of 100)</h3>
             <input
               type="number"
               name="midSemLab"
