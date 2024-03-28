@@ -76,7 +76,7 @@ const DSAPage = () => {
     let lab = (formData.labs[0] / 200 + formData.labs[1] / 200 + formData.labs[2] / 200 + formData.labs[3] / 200 + formData.labs[4] / 200 + formData.labs[5] / 200 + formData.labs[6] / 200 + formData.labs[7] / 200) * 3.75;
     let quiz = ((parseInt(formData.quiz1) / 100) + (parseInt(formData.quiz2) / 100)) * 7.5;
     let mid = ((parseInt(formData.midSemTheory) / 140) + (parseInt(formData.midSemLab) / 450)) * 7.5;
-    let end = (parseInt(formData.endSemTheory) / 140) * 10 + (parseInt(formData.endSemLab) / 450) * 20;
+    let end = (parseInt(formData.endSemTheory) / 100) * 10 + (parseInt(formData.endSemLab) / 100) * 20;
     let final = assignments + lab + quiz + mid + end;
     console.log(quiz, mid, end, assignments, lab, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
@@ -127,7 +127,7 @@ const DSAPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-300">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Quiz 2</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Quiz 2 (out of 100)</h3>
             <input
               type="number"
               name="quiz2"
@@ -138,7 +138,7 @@ const DSAPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-400">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">End Sem Theory</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">End Sem Theory (out of 100)</h3>
             <input
               type="number"
               name="endSemTheory"
@@ -149,7 +149,7 @@ const DSAPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-500">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">End Sem Lab</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">End Sem Lab (out of 100)</h3>
             <input
               type="number"
               name="endSemLab"
