@@ -24,7 +24,7 @@ const RAPage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
       const scrollProgress = (scrollTop / scrollHeight) * 100;
       setProgress(scrollProgress);
     };
