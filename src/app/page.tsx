@@ -45,7 +45,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="text-white py-4 text-center px-4 sm:px-8 md:px-12 lg:px-16">
         <p>
-          Made with 💖 by Arihant and{' '}
+          Made with 💖 by Arihant, AviLOL and{' '}
           <a
             href="https://github.com/Arihant25/grades-calculator-iiith/graphs/contributors"
             className="text-yellow-200 hover:text-yellow-500 transition-colors duration-200"
