@@ -68,8 +68,8 @@ const LAPage = () => {
     let lastHalfAssignments = ((parseInt(formData.assignment8) / 25) + (parseInt(formData.assignment9) / 100)) * (5 / 2);
     let mid = (parseInt(formData.midSem) / 15) * 20;
     let end = (parseInt(formData.endSem) / 100) * 30;
-    let tutQuiz = (parseInt(formData.tutorialQuiz) / 15) * 5;
-    let quiz = ((parseInt(formData.quiz1) / 15) + (parseInt(formData.quiz2) / 15)) * 10;
+    let tutQuiz = (parseInt(formData.tutorialQuiz) / 25) * 5;
+    let quiz = ((parseInt(formData.quiz1) / 15) + (parseInt(formData.quiz2) / 30)) * 10;
     let final = firstHalfAssignments + secondHalfAssignments + lastHalfAssignments + tutQuiz + mid + end + quiz;
     console.log(firstHalfAssignments, secondHalfAssignments, lastHalfAssignments, tutQuiz, mid, end, quiz, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
@@ -113,7 +113,7 @@ const LAPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-200">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Quiz 2 (out of 15)</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Quiz 2 (out of 30)</h3>
             <input
               type="number"
               name="quiz2"
@@ -124,7 +124,7 @@ const LAPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-300">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Tutorial Quiz (out of 15)</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Tutorial Quiz (out of 25)</h3>
             <input
               type="number"
               name="tutorialQuiz"

@@ -57,7 +57,7 @@ const CSOPage = () => {
     let mid = (parseInt(formData.midSem) / 60) * 20;
     let end = (parseInt(formData.endSem) / 100) * 30;
     let lab = (parseInt(formData.labExam) / 100) * 15;
-    let quiz = ((parseInt(formData.quiz1) / 30) + (parseInt(formData.quiz2) / 100)) * 7.5;
+    let quiz = ((parseInt(formData.quiz1) / 30) + (parseInt(formData.quiz2) / 30)) * 7.5;
     let final = assignments + lab + mid + end + quiz;
     console.log(assignments, lab, mid, end, quiz, final);
     alert(`Total marks: ` + parseFloat(`${final}`).toFixed(2));
@@ -108,7 +108,7 @@ const CSOPage = () => {
             />
           </div>
           <div className="mb-8 animate-fade-in animate-delay-300">
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Quiz 2 (out of 100)</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-700">Quiz 2 (out of 30)</h3>
             <input
               type="number"
               name="quiz2"
