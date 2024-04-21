@@ -1,5 +1,7 @@
 # Grades Calculator IIITH
 
+[![wakatime](https://wakatime.com/badge/user/77cdaa68-53d6-4cf6-8c9c-7ec147407ce9/project/018e5622-0e15-492b-b693-9eda689c2189.svg?style=for-the-badge)](https://wakatime.com/badge/user/77cdaa68-53d6-4cf6-8c9c-7ec147407ce9/project/018e5622-0e15-492b-b693-9eda689c2189)
+
 This is a web app to calculate grades for courses taken at IIIT Hyderabad.
 
 > Since the grading scheme for every course changes every year, this app is specifically designed to calculate grades for the courses taken by the UG 2023 batch.
