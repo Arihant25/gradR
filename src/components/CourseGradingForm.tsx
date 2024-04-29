@@ -58,9 +58,9 @@ const CourseGradingForm: React.FC<CourseGradingFormProps> = ({ courseData }) => 
       {Object.entries(courseData.courseGradingPolicy).map(([key, value]) => (
         <div key={key} className="mb-8">
           {Array.isArray(value[0]) ? (
-            <h3 className="text-lg font-semibold mb-2">{key + " ( Out of " + (value[1][1] as number) + " )"}</h3>
+            <h3 className="text-lg font-semibold mb-2">{key + " (Out of " + (value[1][1] as number) + ")"}</h3>
           ) : (
-            <h3 className="text-lg font-semibold mb-2">{key + " ( Out of " + (value[1] as number) + " )"}</h3>
+            <h3 className="text-lg font-semibold mb-2">{key + " (Out of " + (value[1] as number) + ")"}</h3>
           )}
           {/* <h3 className="text-lg font-semibold mb-2">{key + " ( Out of " + value[1] + " )"}</h3> */}
           {Array.isArray(value[0]) ? (
