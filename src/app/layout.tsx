@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IIIT Grades Calculator",
-  description: "Calculate grades for courses taken at IIIT Hyderabad",
+  title: "GradR",
+  description: "Calculate grades for courses at IIIT Hyderabad",
 };
 
 export default function RootLayout({
