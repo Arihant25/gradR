@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../../components/Navbar';
 import CourseGradingForm from '../../../components/CourseGradingForm';
 import coursesData from '../../../../public/courses.json';
 
@@ -13,7 +12,6 @@ const DSAPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 text-black">
-      <NavBar />
       <div className="container mx-auto px-4 py-8">
         <div className="bg-white p-6 sm:p-10 rounded-lg shadow-xl border-2 border-gray-300">
           <div className="mb-10">
