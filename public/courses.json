@@ -1,0 +1,283 @@
+[
+    {
+        "courseCode": "MA5.101",
+        "courseName": "Discrete Structures",
+        "courseSubject": "Mathematics",
+        "courseCredits": 4,
+        "courseSemester": "1",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of discrete mathematics, including set theory, logic, relations, functions, and combinatorics. The course will also cover the basics of graph theory and trees.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "quiz1": [10, 100],
+            "quiz2": [10, 100],
+            "midsem": [30, 100],
+            "endsem": [30, 100],
+            "assignments": [[6.66666, 20], [6.66666, 100], [6.66666, 100]]
+        }
+    },
+    {
+        "courseCode": "CS0.101",
+        "courseName": "Computer Programming",
+        "courseSubject": "Computer Science",
+        "courseCredits": 5,
+        "courseSemester": "1",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of computer programming. The course will cover the basics of programming in C, including data types, control structures, functions, arrays, and pointers.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "quiz1": [10, 100],
+            "quiz2": [10, 100],
+            "midsem": [15, 100],
+            "endsem": [25, 100],
+            "assignments": [[6, 100], [6, 100], [6, 100], [6, 100], [6, 100]],
+            "bonus": [5, 100]
+        }
+    },
+    {
+        "courseCode": "MA4.101",
+        "courseName": "Real Analysis",
+        "courseSubject": "Mathematics",
+        "courseCredits": 4,
+        "courseSemester": "1",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of real analysis. The course will cover the basics of sequences, series, limits, continuity, and differentiability.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "quiz1": [15, 100],
+            "quiz2": [15, 100],
+            "midsem": [25, 100],
+            "endsem": [35, 100],
+            "assignment": [10, 100]
+        }
+    },
+    {
+        "courseCode": "EC2.101",
+        "courseName": "Digital Systems and Microcontrollers",
+        "courseSubject": "Electronics and Communication",
+        "courseCredits": 5,
+        "courseSemester": "1",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of digital systems and microcontrollers. The course will cover the basics of digital logic, combinational and sequential circuits, and microcontroller programming.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "quiz1": [15, 100],
+            "quiz2": [15, 100],
+            "midsem": [20, 100],
+            "endsem": [30, 100],
+            "labs": [[2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20]]
+        }
+    },
+    {
+        "courseCode": "MA2.101",
+        "courseName": "Linear Algebra",
+        "courseSubject": "Mathematics",
+        "courseCredits": 4,
+        "courseSemester": "2",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of linear algebra. The course will cover the basics of vector spaces, linear transformations, matrices, determinants, and eigenvalues.",
+        "coursePrerequisites": "Real Analysis",
+        "courseGradingPolicy": {
+            "quiz1": [10, 15],
+            "quiz2": [10, 25],
+            "tutorialQuiz": [5, 15],
+            "midsem": [20, 15],
+            "endsem": [30, 30],
+            "assignments": [[2.85714, 10], [2.85714, 20], [2.85714, 20], [2.85714, 15], [2.85714, 15], [2.85714, 20], [2.85714, 10], [2.5, 20], [2.5, 100]]
+        }
+    },
+    {
+        "courseCode": "CS3.303",
+        "courseName": "Introduction to IoT",
+        "courseSubject": "Computer Science",
+        "courseCredits": 3,
+        "courseSemester": "2",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of the Internet of Things (IoT). The course will cover the basics of IoT devices, sensors, actuators, and communication protocols.",
+        "coursePrerequisites": "None", 
+        "courseGradingPolicy": {
+            "quiz1": [7.5, 15],
+            "midsem": [15, 20],
+            "endsem": [30, 100],
+            "project": [20, 100],
+            "assignment": [7.5, 15],
+            "labs": [[2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25]]
+        }
+    },
+    {
+        "courseCode": "CS1.201",
+        "courseName": "Data Structures and Algorithms",
+        "courseSubject": "Computer Science",
+        "courseCredits": 5,
+        "courseSemester": "2",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of data structures and algorithms. The course will cover the basics of arrays, linked lists, stacks, queues, trees, graphs, and sorting and searching algorithms.",
+        "coursePrerequisites": "Computer Programming", 
+        "courseGradingPolicy": {
+            "quiz1": [7.5, 100],
+            "quiz2": [7.5, 100],
+            "midsemTheory": [7.5, 140],
+            "midsemLab": [7.5, 450],
+            "endsemTheory": [15, 100],
+            "endsemLab": [15, 100],
+            "assignments": [[2, 100], [2, 100], [2, 100], [2, 100], [2, 100]],
+            "labs": [[3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200]]
+        }
+    },
+    {
+        "courseCode": "CS6.201",
+        "courseName": "Introduction to Software Systems",
+        "courseSubject": "Computer Science",
+        "courseCredits": 2,
+        "courseSemester": "2",
+        "courseDuration": "firstHalf",
+        "courseDescription": "This course is provides an introduction to the various domains of programming. The course will cover the basics of Bash, HTML, CSS, JavaScript, Python (with a hint of OOP) and MySQL.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "finalTheory": [15, 90],
+            "finalLab": [15, 100],
+            "project": [30, 100],
+            "assignments": [[10, 100], [10, 100]],
+            "labs": [[5, 100], [5, 100], [5, 100], [5, 100]]
+        }
+    },
+    {
+        "courseCode": "CS2.201",
+        "courseName": "Computer Systems Organization",
+        "courseSubject": "Computer Science",
+        "courseCredits": 4,
+        "courseSemester": "2",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of computer systems organization. The course will cover the basics of computer architecture, assembly language programming and memory hierarchy.",
+        "coursePrerequisites": "Digital Systems and Microcontrollers",
+        "courseGradingPolicy": {
+            "lab": [15, 100],
+            "quiz1": [7.5, 100],
+            "quiz2": [7.5, 100],
+            "midsem": [20, 60],
+            "endsem": [30, 100],
+            "assignments": [[10, 100], [10, 100]]
+        }
+    },
+    {
+        "courseCode": "MA6.101",
+        "courseName": "Probability and Statistics",
+        "courseSubject": "Mathematics",
+        "courseCredits": 4,
+        "courseSemester": "3",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "CS4.301",
+        "courseName": "Data and Applicatons",
+        "courseSubject": "Computer Science",
+        "courseCredits": 2,
+        "courseSemester": "3",
+        "courseDuration": "secondHalf",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "CS1.302",
+        "courseName": "Automata Theory",
+        "courseSubject": "Computer  Science",
+        "courseCredits": 2,
+        "courseSemester": "3",
+        "courseDuration": "firstHalf",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "CS1.301",
+        "courseName": "Algorithm Analysis and Design",
+        "courseSubject": "Computer Science",
+        "courseCredits": 4,
+        "courseSemester": "3",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "CS3.301",
+        "courseName": "Operating Systems and Networks",
+        "courseSubject": "Computer Science",
+        "courseCredits": 4,
+        "courseSemester": "3",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "SC1.110",
+        "courseName": "Science 1",
+        "courseSubject": "Science",
+        "courseCredits": 4,
+        "courseSemester": "3",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "EC3.202",
+        "courseName": "Embedded Systems Workshop",
+        "courseSubject": "Electronics and Communication",
+        "courseCredits": 3,
+        "courseSemester": "3",
+        "courseDuration": "firstHalf",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "CS6.301",
+        "courseName": "Design and Analysis of Software Systems",
+        "courseSubject": "Computer Science",
+        "courseCredits": 4,
+        "courseSemester": "4",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "CS7.301",
+        "courseName": "Machine, Data and Learning",
+        "courseSubject": "Computer Science",
+        "courseCredits": 4,
+        "courseSemester": "4",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "SC1.111",
+        "courseName": "Science 2",
+        "courseSubject": "Science",
+        "courseCredits": 4,
+        "courseSemester": "4",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    },
+    {
+        "courseCode": "HS8.102",
+        "courseName": "Intro to Human Sciences",
+        "courseSubject": "Humanities",
+        "courseCredits": 4,
+        "courseSemester": "4",
+        "courseDuration": "fullSem",
+        "courseDescription": "",
+        "coursePrerequisites": "",
+        "courseGradingPolicy": {}
+    }
+]
