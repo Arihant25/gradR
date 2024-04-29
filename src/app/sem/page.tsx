@@ -38,7 +38,7 @@ const colorClasses: ColorClasses = {
   rose: 'bg-rose-500'
 };
 
-const CSXPage: React.FC = () => {
+const SEMPage: React.FC = () => {
   const [currentSemester, setCurrentSemester] = useState<string>('Sem 1-1');
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
   const [semesterCourses, setSemesterCourses] = useState<Course[]>([]);
@@ -131,4 +131,4 @@ const CSXPage: React.FC = () => {
   );
 };
 
-export default CSXPage;
+export default SEMPage;

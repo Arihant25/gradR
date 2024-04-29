@@ -30,14 +30,11 @@ export default function Home() {
           </h1>
         </div>
         <div className="text-center">
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white p-10">
-            Choose your Branch
-          </h3>
           <Link
-            href="/csx"
-            className="bg-white text-indigo-600 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200 p-5"
+            href="/sem"
+            className="bg-white text-indigo-600 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200 p-63"
           >
-            CSX
+            Select Courses
           </Link>
         </div>
       </div>
