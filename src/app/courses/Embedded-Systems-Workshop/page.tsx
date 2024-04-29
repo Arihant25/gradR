@@ -8,8 +8,8 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Data_Structures_and_AlgorithmsPage = () => {
-  const courseCode = 'CS1.201';
+const Embedded_Systems_WorkshopPage = () => {
+  const courseCode = 'EC3.202';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
 
@@ -54,5 +54,5 @@ const Data_Structures_and_AlgorithmsPage = () => {
   );
 };
 
-export default Data_Structures_and_AlgorithmsPage;
+export default Embedded_Systems_WorkshopPage;
 

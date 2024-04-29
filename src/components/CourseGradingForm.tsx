@@ -96,7 +96,7 @@ const CourseGradingForm: React.FC<CourseGradingFormProps> = ({
       <div className="flex w-full justify-between">
         <button
           onClick={calculateMarks}
-          className="text-white font-semibold text-lg py-3 px-6 rounded-lg mt-6"
+          className="text-white font-semibold text-lg py-3 px-6 h-12 rounded-lg mt-6"
           style={{ backgroundColor: "#053C6B" }}
         >
           Submit
