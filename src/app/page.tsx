@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen animate-gradient-flow bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+    <div className="flex flex-col min-h-screen animate-gradient-flow bg-gradient-to-r from-gay-blue via-indigo-500 to-dark-cerulean">
       {/* GitHub link */}
       <div className="fixed top-0 right-0 m-4 sm:m-6 md:m-8">
         <a

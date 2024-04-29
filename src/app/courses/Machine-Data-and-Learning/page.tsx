@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Machine,_Data_and_LearningPage = () => {
+const Machine_Data_and_LearningPage = () => {
   const courseCode = 'CS7.301';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Machine,_Data_and_LearningPage = () => {
   );
 };
 
-export default Machine,_Data_and_LearningPage;
+export default Machine_Data_and_LearningPage;
 

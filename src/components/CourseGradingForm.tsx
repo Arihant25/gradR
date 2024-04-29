@@ -58,6 +58,22 @@ const CourseGradingForm: React.FC<CourseGradingFormProps> = ({
     alert(`Total marks: ${totalMarks.toFixed(2)}`);
   };
 
+  if (Object.entries(courseData.courseGradingPolicy).length === 0) {
+    return <div>
+      <h3 className="text-xl font-semibold text-center mt-8">
+        Error 404 : Grades Not Found
+      </h3>
+
+      <p className="text-l text-center mt-8">
+        But you can simply add the weightages to our
+        <a href="https://github.com/Arihant25/gradR/blob/main/public/courses.json" style={{ color: "#6699ee" }}> JSON file </a>
+        and see our coding monkeys cook!
+      </p>
+
+
+    </div>;
+  }
+
   return (
     <div>
       {Object.entries(courseData.courseGradingPolicy).map(([key, value]) => (
