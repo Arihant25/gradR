@@ -22,20 +22,20 @@ export default function Home() {
       {/* Hero */}
       <div className="flex-grow flex flex-col justify-center items-center px-4 sm:px-8 md:px-12 lg:px-16">
         <div className="text-center mb-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">
+          <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold text-white mb-2">
             Welcome to
-          </h1>
-          <h2 className="text-4xl sm:text-6xl md:text-8xl font-extrabold text-white">
-            Grades Calculator IIITH
           </h2>
+          <h1 className="text-7xl sm:text-8xl md:text-9xl font-extrabold text-white">
+            GradR
+          </h1>
         </div>
-        <div className="text-center mb-8">
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-6">
+        <div className="text-center">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white p-10">
             Choose your Branch
           </h3>
           <Link
             href="/csx"
-            className="bg-white text-indigo-600 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200"
+            className="bg-white text-indigo-600 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200 p-5"
           >
             CSX
           </Link>

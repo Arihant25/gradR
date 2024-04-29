@@ -1,10 +1,38 @@
-import React from 'react';
+'use client';
+import React, { useState, useEffect } from 'react';
 import CourseGradingForm from '../../../components/CourseGradingForm';
 import coursesData from '../../../../public/courses.json';
 
+interface CourseGradingData {
+  courseCode: string;
+  [key: string]: string | number;
+}
+
 const DSAPage = () => {
-  const courseCode = 'CS1.201'; // Replace with the actual course code for the page
+  const courseCode = 'CS1.201';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
+  const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
+
+  useEffect(() => {
+    const storedData = localStorage.getItem('gradingData');
+    if (storedData) {
+      setGradingData(JSON.parse(storedData));
+    }
+  }, []);
+
+  const handleSubmit = (data: CourseGradingData) => {
+    const updatedData = [...gradingData];
+    const existingIndex = updatedData.findIndex((item) => item.courseCode === data.courseCode);
+
+    if (existingIndex !== -1) {
+      updatedData[existingIndex] = data;
+    } else {
+      updatedData.push(data);
+    }
+
+    setGradingData(updatedData);
+    localStorage.setItem('gradingData', JSON.stringify(updatedData));
+  };
 
   if (!courseData) {
     return <div>Course not found.</div>;
@@ -19,7 +47,7 @@ const DSAPage = () => {
               {courseData.courseName}
             </h2>
           </div>
-          <CourseGradingForm courseData={courseData} />
+          <CourseGradingForm courseData={courseData} onSubmit={handleSubmit} />
         </div>
       </div>
     </div>

@@ -4,8 +4,6 @@
 
 This is a web app to calculate grades for courses taken at IIIT Hyderabad.
 
-> Since the grading scheme for every course changes every year, this app is specifically designed to calculate grades for the courses taken by the UG 2023 batch.
-
 ## Features
 - Calculate the final percentage for any of your courses.
 - Calculate your CGPA/SGPA based on a rough estimate of your grades.

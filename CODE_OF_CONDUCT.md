@@ -1,4 +1,4 @@
-# Code of Conduct - Grades Calculator IIITH
+# Code of Conduct - GradR
 
 ## Our Pledge
 
