@@ -9,11 +9,11 @@
         "courseDescription": "This course is an introduction to the basic concepts of discrete mathematics, including set theory, logic, relations, functions, and combinatorics. The course will also cover the basics of graph theory and trees.",
         "coursePrerequisites": "None",
         "courseGradingPolicy": {
-            "quiz1": [10, 100],
-            "quiz2": [10, 100],
-            "midsem": [30, 100],
-            "endsem": [30, 100],
-            "assignments": [[6.66666, 20], [6.66666, 100], [6.66666, 100]]
+            "Quiz 1": [10, 100],
+            "Quiz 2": [10, 100],
+            "Mid Sem": [30, 100],
+            "End Sem": [30, 100],
+            "Assignments": [[6.66666, 20], [6.66666, 100], [6.66666, 100]]
         }
     },
     {
@@ -26,12 +26,12 @@
         "courseDescription": "This course is an introduction to the basic concepts of computer programming. The course will cover the basics of programming in C, including data types, control structures, functions, arrays, and pointers.",
         "coursePrerequisites": "None",
         "courseGradingPolicy": {
-            "quiz1": [10, 100],
-            "quiz2": [10, 100],
-            "midsem": [15, 100],
-            "endsem": [25, 100],
-            "assignments": [[6, 100], [6, 100], [6, 100], [6, 100], [6, 100]],
-            "bonus": [5, 100]
+            "Quiz 1": [10, 100],
+            "Quiz 2": [10, 100],
+            "Mid Sem": [15, 100],
+            "End Sem": [25, 100],
+            "Assignments": [[6, 100], [6, 100], [6, 100], [6, 100], [6, 100]],
+            "Bonus Project": [5, 100]
         }
     },
     {
@@ -44,11 +44,11 @@
         "courseDescription": "This course is an introduction to the basic concepts of real analysis. The course will cover the basics of sequences, series, limits, continuity, and differentiability.",
         "coursePrerequisites": "None",
         "courseGradingPolicy": {
-            "quiz1": [15, 100],
-            "quiz2": [15, 100],
-            "midsem": [25, 100],
-            "endsem": [35, 100],
-            "assignment": [10, 100]
+            "Quiz 1": [15, 100],
+            "Quiz 2": [15, 100],
+            "Mid Sem": [25, 100],
+            "End Sem": [35, 100],
+            "Assignment": [10, 100]
         }
     },
     {
@@ -61,11 +61,11 @@
         "courseDescription": "This course is an introduction to the basic concepts of digital systems and microcontrollers. The course will cover the basics of digital logic, combinational and sequential circuits, and microcontroller programming.",
         "coursePrerequisites": "None",
         "courseGradingPolicy": {
-            "quiz1": [15, 100],
-            "quiz2": [15, 100],
-            "midsem": [20, 100],
-            "endsem": [30, 100],
-            "labs": [[2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20]]
+            "Quiz 1": [15, 100],
+            "Quiz 2": [15, 100],
+            "Mid Sem": [20, 100],
+            "End Sem": [30, 100],
+            "Labs": [[2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20], [2.5, 20]]
         }
     },
     {
@@ -78,12 +78,12 @@
         "courseDescription": "This course is an introduction to the basic concepts of linear algebra. The course will cover the basics of vector spaces, linear transformations, matrices, determinants, and eigenvalues.",
         "coursePrerequisites": "Real Analysis",
         "courseGradingPolicy": {
-            "quiz1": [10, 15],
-            "quiz2": [10, 25],
-            "tutorialQuiz": [5, 15],
-            "midsem": [20, 15],
-            "endsem": [30, 30],
-            "assignments": [[2.85714, 10], [2.85714, 20], [2.85714, 20], [2.85714, 15], [2.85714, 15], [2.85714, 20], [2.85714, 10], [2.5, 20], [2.5, 100]]
+            "Quiz 1": [10, 15],
+            "Quiz 2": [10, 25],
+            "Tutorial Quiz": [5, 15],
+            "Mid Sem": [20, 15],
+            "End Sem": [30, 30],
+            "Assignments": [[2.85714, 10], [2.85714, 20], [2.85714, 20], [2.85714, 15], [2.85714, 15], [2.85714, 20], [2.85714, 10], [2.5, 20], [2.5, 100]]
         }
     },
     {
@@ -96,12 +96,12 @@
         "courseDescription": "This course is an introduction to the basic concepts of the Internet of Things (IoT). The course will cover the basics of IoT devices, sensors, actuators, and communication protocols.",
         "coursePrerequisites": "None", 
         "courseGradingPolicy": {
-            "quiz1": [7.5, 15],
-            "midsem": [15, 20],
-            "endsem": [30, 100],
-            "project": [20, 100],
-            "assignment": [7.5, 15],
-            "labs": [[2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25]]
+            "Quiz 1": [7.5, 15],
+            "Mid Sem": [15, 20],
+            "End Sem": [30, 30],
+            "Project": [20, 100],
+            "Assignment": [7.5, 15],
+            "Labs": [[2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25], [2, 25]]
         }
     },
     {
@@ -114,14 +114,14 @@
         "courseDescription": "This course is an introduction to the basic concepts of data structures and algorithms. The course will cover the basics of arrays, linked lists, stacks, queues, trees, graphs, and sorting and searching algorithms.",
         "coursePrerequisites": "Computer Programming", 
         "courseGradingPolicy": {
-            "quiz1": [7.5, 100],
-            "quiz2": [7.5, 100],
-            "midsemTheory": [7.5, 140],
-            "midsemLab": [7.5, 450],
-            "endsemTheory": [15, 100],
-            "endsemLab": [15, 100],
-            "assignments": [[2, 100], [2, 100], [2, 100], [2, 100], [2, 100]],
-            "labs": [[3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200]]
+            "Quiz 1": [7.5, 100],
+            "Quiz 2": [7.5, 100],
+            "Mid Sem Theory": [7.5, 140],
+            "Mid Sem Lab": [7.5, 450],
+            "End Sem Theory": [10, 350],
+            "End Sem Lab": [20, 100],
+            "Assignments": [[2, 200], [2, 200], [2, 200], [2, 200], [2, 200]],
+            "Labs": [[3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200], [3.75, 200]]
         }
     },
     {
@@ -134,11 +134,11 @@
         "courseDescription": "This course is provides an introduction to the various domains of programming. The course will cover the basics of Bash, HTML, CSS, JavaScript, Python (with a hint of OOP) and MySQL.",
         "coursePrerequisites": "None",
         "courseGradingPolicy": {
-            "finalTheory": [15, 90],
-            "finalLab": [15, 100],
-            "project": [30, 100],
-            "assignments": [[10, 100], [10, 100]],
-            "labs": [[5, 100], [5, 100], [5, 100], [5, 100]]
+            "Final Theory": [15, 90],
+            "Final Lab": [15, 100],
+            "Project": [30, 100],
+            "Assignments": [[10, 100], [10, 100]],
+            "Labs": [[5, 100], [5, 100], [5, 100], [5, 100]]
         }
     },
     {
@@ -151,12 +151,12 @@
         "courseDescription": "This course is an introduction to the basic concepts of computer systems organization. The course will cover the basics of computer architecture, assembly language programming and memory hierarchy.",
         "coursePrerequisites": "Digital Systems and Microcontrollers",
         "courseGradingPolicy": {
-            "lab": [15, 100],
-            "quiz1": [7.5, 100],
-            "quiz2": [7.5, 100],
-            "midsem": [20, 60],
-            "endsem": [30, 100],
-            "assignments": [[10, 100], [10, 100]]
+            "Lab": [15, 100],
+            "Quiz 1": [7.5, 100],
+            "Quiz 2": [7.5, 100],
+            "Mid Sem": [20, 60],
+            "End Sem": [30, 100],
+            "Assignments": [[10, 100], [10, 100]]
         }
     },
     {
@@ -184,7 +184,7 @@
     {
         "courseCode": "CS1.302",
         "courseName": "Automata Theory",
-        "courseSubject": "Computer  Science",
+        "courseSubject": "Computer Science",
         "courseCredits": 2,
         "courseSemester": "3",
         "courseDuration": "firstHalf",
