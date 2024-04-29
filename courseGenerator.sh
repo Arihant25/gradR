@@ -13,6 +13,7 @@ COURSES=$(cat $JSON_FILE)
 while read -r COURSE_DATA; do
   # Extract the course name and replace spaces with hyphens
   COURSE_NAME=$(echo "$COURSE_DATA" | jq -r '.courseName' | tr ' ' '-')
+  echo "Generating course: $COURSE_NAME"
 
   # Extract the course code
   COURSE_CODE=$(echo "$COURSE_DATA" | jq -r '.courseCode')
