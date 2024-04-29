@@ -121,7 +121,7 @@ const SEMPage: React.FC = () => {
               <div
                 className={`${colorClasses[course.color]} rounded- rounded-lg shadow-xl p-6 sm:p-8 cursor-pointer flex justify-center items-center hover:scale-105 hover:shadow-2xl transition duration-200 h-full border-2 border-gray-300 transform-gpu rotate-x-12`}
               >
-                <h3 className="text-lg sm:text-2xl font-semibold text-gray-900">{course.courseName}</h3>
+                <h3 className="text-lg sm:text-2xl font-semibold text-gray-100">{course.courseName}</h3>
               </div>
             </Link>
           ))}

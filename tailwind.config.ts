@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         "dark-cerulean": "#053C6B",
         "gay-blue": "#6699ee",
+        "vivid-cerulean": "#00A6FB",
       },
     },
   },

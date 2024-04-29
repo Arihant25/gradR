@@ -9,7 +9,7 @@ export default function Home() {
           href="https://github.com/Arihant25/grades-calculator-iiith"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-white text-indigo-600 font-semibold py-2 px-4 rounded-md hover:bg-indigo-600 hover:text-white transition-colors duration-200 flex items-center"
+          className="bg-white text-gray-600 font-semibold py-2 px-4 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 flex items-center"
         >
           {/* GitHub logo SVG */}
           <svg className="h-5 w-5 fill-current mr-2" viewBox="0 0 24 24">
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="text-center">
           <Link
             href="/sem"
-            className="bg-white text-indigo-600 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-violet-700 hover:text-white transition-colors duration-200 p-63"
+            className="bg-white text-l text-gray-600 font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
           >
             Select Courses
           </Link>
@@ -42,7 +42,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="text-white py-4 text-center px-4 sm:px-8 md:px-12 lg:px-16">
         <p>
-          Made with 💖 by Arihant, AviLOL and{' '}
+          Made with 💖 by Arihant25, AviLOL and{' '}
           <a
             href="https://github.com/Arihant25/grades-calculator-iiith/graphs/contributors"
             className="text-yellow-200 hover:text-yellow-500 transition-colors duration-200"
