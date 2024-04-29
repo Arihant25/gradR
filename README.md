@@ -4,10 +4,6 @@
 
 This is a web app to calculate grades for courses taken at IIIT Hyderabad.
 
-## Features
-- Calculate the final percentage for any of your courses.
-- Calculate your CGPA/SGPA based on a rough estimate of your grades.
-
 ## Technologies Used
 - HTML
 - Tailwind CSS
@@ -18,4 +14,4 @@ This is a web app to calculate grades for courses taken at IIIT Hyderabad.
 This web app is hosted on Vercel. It uses local storage to store your data, so none of your data is sent to the server.
 
 ## Contributing
-I am looking for contributors to add more courses, and their resective branches, if they don't already exist on the website. If you are interested in contributing, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. Also feel free to fix any bugs you find, or add any features you think would be useful.
+I am looking for contributors to add more courses, if they don't already exist on the website. If you are interested in contributing, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. Also feel free to fix any bugs you find, or add any features you think would be useful.
