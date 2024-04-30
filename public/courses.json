@@ -142,7 +142,7 @@
         "coursePrerequisites": "None",
         "courseGradingPolicy": {
             "Final Theory": [15, 90],
-            "Final Lab": [15, 100],
+            "Final Lab": [15, 50],
             "Project": [30, 100],
             "Assignments": [[10, 100], [10, 100]],
             "Labs": [[5, 100], [5, 100], [5, 100], [5, 100]]
