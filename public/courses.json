@@ -160,8 +160,8 @@
         "coursePrerequisites": "Digital Systems and Microcontrollers",
         "courseGradingPolicy": {
             "Lab": [15, 40],
-            "Quiz 1": [7.5, 100],
-            "Quiz 2": [7.5, 100],
+            "Quiz 1": [7.5, 30],
+            "Quiz 2": [7.5, 30],
             "Mid Sem": [20, 60],
             "End Sem": [30, 100],
             "Assignments": [[10, 50], [10, 50]]

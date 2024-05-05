@@ -90,7 +90,6 @@ const CourseGradingForm: React.FC<CourseGradingFormProps> = ({
               {(value as [number, number][]).map((_, index) => (
                 <input
                   key={`${key}-${index}`}
-                  type="number"
                   name={`${key}-${index}`}
                   onChange={(e) => handleInputChange(e, index)}
                   className="border-2 border-gray-400 rounded-md p-3 w-full"
@@ -100,7 +99,6 @@ const CourseGradingForm: React.FC<CourseGradingFormProps> = ({
             </div>
           ) : (
             <input
-              type="number"
               name={key}
               value={(formData[key] as string) || ""}
               onChange={handleInputChange}
