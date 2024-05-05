@@ -47,11 +47,11 @@ const CourseGradingForm: React.FC<CourseGradingFormProps> = ({
     Object.entries(courseData.courseGradingPolicy).forEach(([key, value]) => {
       if (Array.isArray(value[0])) {
         const marks = (formData[key] as string[]).reduce((sum, mark, index) => {
-          return sum + (parseFloat(mark) / value[index][1]) * value[index][0];
+          return sum + (parseFloat(mark) / value[index][1]) * value[index][0] || 0;
         }, 0);
         totalMarks += marks;
       } else {
-        const mark = parseFloat(formData[key] as string);
+        const mark = parseFloat(formData[key] as string || "0");
         totalMarks += (mark / value[1]) * value[0];
       }
     });
