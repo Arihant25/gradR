@@ -83,7 +83,7 @@
         "coursePrerequisites": "Real Analysis",
         "courseGradingPolicy": {
             "Quiz 1": [10, 15],
-            "Quiz 2": [10, 25],
+            "Quiz 2": [10, 30],
             "Tutorial Quiz": [5, 25],
             "Mid Sem": [20, 15],
             "End Sem": [30, 30],
@@ -159,7 +159,7 @@
         "courseDescription": "This course is an introduction to the basic concepts of computer systems organization. The course will cover the basics of computer architecture, assembly language programming and memory hierarchy.",
         "coursePrerequisites": "Digital Systems and Microcontrollers",
         "courseGradingPolicy": {
-            "Lab": [15, 100],
+            "Lab": [15, 40],
             "Quiz 1": [7.5, 100],
             "Quiz 2": [7.5, 100],
             "Mid Sem": [20, 60],
