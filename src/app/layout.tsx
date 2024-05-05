@@ -19,6 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/img/favicon.jpg" sizes="any" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5332965726819623"
+          crossOrigin="anonymous"></script>
       </head>
       <GoogleAnalytics gaId="G-E4WMLNBY0T" />
       <body className={inter.className}>{children}</body>
