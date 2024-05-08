@@ -20,22 +20,36 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <div className="flex-grow flex flex-col justify-center items-center px-4 sm:px-8 md:px-12 lg:px-16">
-        <div className="text-center mb-8">
+      <div className="flex-grow flex flex-col justify-around items-center px-4 sm:px-8 md:px-12 lg:px-16">
+        <div className="text-center">
           <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold text-white mb-2">
             Welcome to
           </h2>
           <h1 className="text-7xl sm:text-8xl md:text-9xl font-extrabold text-white">
             GradR
           </h1>
-        </div>
-        <div className="text-center">
-          <Link
-            href="/sem"
-            className="bg-white text-l text-gray-600 font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
-          >
-            Select Courses
-          </Link>
+          <div className="text-center my-6">
+            <Link
+              href="/sem"
+              className="bg-white text-l text-gray-600 font-bold py-3 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+            >
+              Calculate Course Percentage
+            </Link>
+          </div>
+          <div className='my-10'>
+            <Link
+              href="/sgpa"
+              className="bg-white text-l text-gray-600 font-bold py-3 sm:py-3 px-2 mx-4 sm:px-12 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+            >
+              Calculate SGPA
+            </Link>
+            <Link
+              href="/cgpa"
+              className="bg-white text-l text-gray-600 font-bold py-3 sm:py-3 px-2 mx-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+            >
+              Calculate CGPA
+            </Link>
+          </div>
         </div>
       </div>
 
