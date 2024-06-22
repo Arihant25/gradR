@@ -4,14 +4,15 @@ import courses from '../../../public/courses.json';
 
 const SGPACalculatorPage = () => {
     const [selectedCourses, setSelectedCourses] = useState([]);
+    let finalSelections = ();
 
     const addCourse = () => {
-        setSelectedCourses([...selectedCourses, { course: null, grade: 'Select Grade', searchTerm: '' }]);
+        setSelectedCourses([...selectedCourses, { course: null, grade: 'Select Grade', searchTerm: '', showDropdown: false }]);
     };
 
     const updateCourse = (index, field, value) => {
         const updatedCourses = [...selectedCourses];
-        updatedCourses[index][field] = value;
+        updatedCourses[index] = { ...updatedCourses[index], [field]: value };
         setSelectedCourses(updatedCourses);
     };
 
@@ -19,7 +20,7 @@ const SGPACalculatorPage = () => {
         let totalCredits = 0;
         let totalGradePoints = 0;
 
-        selectedCourses.forEach(({ course, grade }) => {
+        finalSelections.forEach(({ course, grade }) => {
             if (course) {
                 const creditPoints = course.courseCredits * getGradePoint(grade);
                 totalGradePoints += creditPoints;
@@ -89,23 +90,22 @@ const SGPACalculatorPage = () => {
                                         className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500"
                                         placeholder="Search for a course"
                                         value={selectedCourse.searchTerm}
-                                        onChange={(e) => updateCourse(index, 'searchTerm', e.target.value)}
                                         onFocus={() => updateCourse(index, 'showDropdown', true)}
                                         onBlur={() => updateCourse(index, 'showDropdown', false)}
                                     />
                                     {selectedCourse.showDropdown && (
-                                        <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded-lg mt-1 py-1">
+                                        <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded-lg mt-1 py-1 overflow-y-auto max-h-60">
                                             {courses
                                                 .filter((course) =>
                                                     course.courseName.toLowerCase().includes(selectedCourse.searchTerm.toLowerCase())
                                                 )
+                                                .sort((a, b) => a.courseName.localeCompare(b.courseName))
                                                 .map((course) => (
                                                     <li
                                                         key={course.courseCode}
                                                         className="px-3 py-2 hover:bg-gray-100 cursor-pointer"
-                                                        onClick={() => {
-                                                            updateCourse(index, 'course', course);
-                                                            updateCourse(index, 'searchTerm', course.courseName);
+                                                        onMouseDown={() => {
+                                                            console.log(course);
                                                             updateCourse(index, 'showDropdown', false);
                                                         }}
                                                     >
@@ -115,12 +115,6 @@ const SGPACalculatorPage = () => {
                                         </ul>
                                     )}
                                 </div>
-                                {selectedCourse.course && (
-                                    <div className="mt-2">
-                                        <span className="text-gray-600">{selectedCourse.course.courseCode}</span>
-                                        <span className="ml-2 text-gray-600">{selectedCourse.course.courseCredits} credits</span>
-                                    </div>
-                                )}
                                 <div className="mt-2">
                                     <select
                                         className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500"
