@@ -4,7 +4,6 @@ import courses from '../../../public/courses.json';
 
 const SGPACalculatorPage = () => {
     const [selectedCourses, setSelectedCourses] = useState([]);
-    let finalSelections = ();
 
     const addCourse = () => {
         setSelectedCourses([...selectedCourses, { course: null, grade: 'Select Grade', searchTerm: '', showDropdown: false }]);
@@ -12,7 +11,16 @@ const SGPACalculatorPage = () => {
 
     const updateCourse = (index, field, value) => {
         const updatedCourses = [...selectedCourses];
-        updatedCourses[index] = { ...updatedCourses[index], [field]: value };
+        if (field === 'course') {
+            updatedCourses[index] = {
+                ...updatedCourses[index],
+                course: value,
+                searchTerm: value.courseName,
+                showDropdown: false
+            };
+        } else {
+            updatedCourses[index] = { ...updatedCourses[index], [field]: value };
+        }
         setSelectedCourses(updatedCourses);
     };
 
@@ -20,7 +28,7 @@ const SGPACalculatorPage = () => {
         let totalCredits = 0;
         let totalGradePoints = 0;
 
-        finalSelections.forEach(({ course, grade }) => {
+        selectedCourses.forEach(({ course, grade }) => {
             if (course) {
                 const creditPoints = course.courseCredits * getGradePoint(grade);
                 totalGradePoints += creditPoints;
@@ -61,7 +69,7 @@ const SGPACalculatorPage = () => {
 
     const showInstructions = () => {
         alert(
-            'Instructions:\n\n1. Click the "Add Course" button to add a new course to the list.\n2. Search for the course name in the search box and select the course from the dropdown.\n3. Select the grade for the course from the grade dropdown.\n4. Repeat steps 1-3 for all the courses you want to calculate the SGPA for.\n5. Click the "Calculate SGPA" button to see the calculated SGPA.'
+            'Instructions:\n\n1. Click the "Add Course" button to add a new course to the list.\n2. Search for the course name in the search box and select the course from the dropdown.\n3. Select the grade for the course from the grade dropdown.\n4. Repeat steps 1-3 for all the courses in your semester.\n5. Click the "Calculate SGPA" button to see the calculated SGPA.'
         );
     };
 
@@ -78,7 +86,7 @@ const SGPACalculatorPage = () => {
                 <div className="bg-white p-6 sm:p-10 rounded-lg shadow-xl border-2 border-gray-300">
                     <div className="mb-10">
                         <h2 className="text-3xl sm:text-5xl font-bold text-center text-gray-800">
-                            SGPA Calculator (Coming Soon!)
+                            SGPA Calculator
                         </h2>
                     </div>
                     <div className="mb-4">
@@ -90,8 +98,9 @@ const SGPACalculatorPage = () => {
                                         className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500"
                                         placeholder="Search for a course"
                                         value={selectedCourse.searchTerm}
+                                        onChange={(e) => updateCourse(index, 'searchTerm', e.target.value)}
                                         onFocus={() => updateCourse(index, 'showDropdown', true)}
-                                        onBlur={() => updateCourse(index, 'showDropdown', false)}
+                                        onBlur={() => setTimeout(() => updateCourse(index, 'showDropdown', false), 200)}
                                     />
                                     {selectedCourse.showDropdown && (
                                         <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded-lg mt-1 py-1 overflow-y-auto max-h-60">
@@ -104,10 +113,7 @@ const SGPACalculatorPage = () => {
                                                     <li
                                                         key={course.courseCode}
                                                         className="px-3 py-2 hover:bg-gray-100 cursor-pointer"
-                                                        onMouseDown={() => {
-                                                            console.log(course);
-                                                            updateCourse(index, 'showDropdown', false);
-                                                        }}
+                                                        onMouseDown={() => updateCourse(index, 'course', course)}
                                                     >
                                                         {course.courseName}
                                                     </li>
@@ -115,6 +121,11 @@ const SGPACalculatorPage = () => {
                                         </ul>
                                     )}
                                 </div>
+                                {selectedCourse.course && (
+                                    <div className="mt-2 text-sm text-gray-600">
+                                        Selected: {selectedCourse.course.courseName} ({selectedCourse.course.courseCode})
+                                    </div>
+                                )}
                                 <div className="mt-2">
                                     <select
                                         className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500"
