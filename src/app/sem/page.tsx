@@ -45,14 +45,9 @@ const SEMPage: React.FC = () => {
 
   useEffect(() => {
     if (courses) {
-      console.log(courses);
-      const semesterNumber = calculateSemesterNumber(currentSemester);
-      console.log('semesterNumber:', semesterNumber);
       const filteredCourses = courses.filter((course: Course) => {
-        console.log('course.courseSemester:', course.courseSemester);
-        return course.courseSemester === semesterNumber.toString();
+        return course.courseSemester === currentSemester.substring(4);;
       });
-      console.log('filteredCourses:', filteredCourses);
       setSemesterCourses(filteredCourses);
     }
   }, [currentSemester]);
@@ -64,23 +59,6 @@ const SEMPage: React.FC = () => {
   const selectSemester = (semester: string) => {
     setCurrentSemester(semester);
     setShowDropdown(false);
-  };
-
-  const generateSemesters = (): string[] => {
-    const semesters = [];
-    for (let i = 1; i <= 4; i++) {
-      for (let j = 1; j <= 2; j++) {
-        semesters.push(`Sem ${i}-${j}`);
-      }
-    }
-    return semesters;
-  };
-
-  const calculateSemesterNumber = (semester: string): number => {
-    const semesterParts = semester.split('-');
-    const semesterYear = parseInt(semesterParts[0].slice(-1));
-    const semesterTerm = parseInt(semesterParts[1]);
-    return (semesterYear - 1) * 2 + semesterTerm;
   };
 
   return (
@@ -101,7 +79,7 @@ const SEMPage: React.FC = () => {
 
           {showDropdown && (
             <div className="absolute top-20 bg-white rounded-lg shadow-xl z-10 text-black text-center border-2 border-gray-300">
-              {generateSemesters().map((semester) => (
+              {['Sem 1-1', 'Sem 1-2', 'Sem 2-1', 'Sem 2-2', 'Sem 3+'].map((semester) => (
                 <div
                   key={semester}
                   className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
