@@ -55,6 +55,80 @@
         "color": "red"
     },
     {
+        "courseCode": "EC2.102",
+        "courseName": "Electronics Workshop I",
+        "courseSubject": "Electronics and Communication",
+        "courseCredits": 2,
+        "courseSemester": "1-1",
+        "courseDuration": "secondHalf",
+        "courseDescription": "This lab course is an introduction to the basic concepts of electronic devices. The course will cover the basics of simple Integrated Circuits (ICs) used in complex daily circuits.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "Labs": [[5, 10],[5,10],[5,10],[5,10],[5,10],[5,10],[10,20]],
+            "Final Viva": [20, 100],
+            "Project": [35, 100]
+        },
+        "color": "orange"
+    },
+    {
+        "courseCode": "EC5.102",
+        "courseName": "Information and Communication",
+        "courseSubject": "Electronics and Communication",
+        "courseCredits": 4,
+        "courseSemester": "1-2",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of information theory. The course will cover the basics of fourier transforms, with channel and source coding.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "Quiz 1": [7.5, 20],
+            "Quiz 2": [7.5, 20],
+            "Mid Sem": [20, 50],
+            "End Sem": [35, 100],
+            "Assignment": [[5, 90], [5,90], [5,71]],
+            "Project": [15,15]
+        },
+        "color": "amber"
+    },
+    {
+        "courseCode": "EC2.103",
+        "courseName": "Analog Electronic Circuits",
+        "courseSubject": "Electronics and Communication",
+        "courseCredits": 5,
+        "courseSemester": "1-2",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of analog circuits. The course will cover the basics of transistor circuits (BJT and MOSFET) and the operational amplifier",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "Quiz 1": [10, 10],
+            "Quiz 2": [10, 10],
+            "Mid Sem": [15, 15],
+            "End Sem": [30, 30],
+            "Assignments": [[3.75, 10], [3.75,100], [3.75,30],[3.75,65],[3.75,45]],
+            "Labs": [[0.555,10],[0.555,10],[0.555,10],[0.555,10],[0.555,10],[0.555,10],[0.555,10],[0.555,10],[0.555,10],[0.555,10]],
+            "Project": [15,15]
+        },
+        "color": "emerald"
+    },
+    {
+        "courseCode": "EC2.103",
+        "courseName": "Networks Signals and Systems",
+        "courseSubject": "Electronics and Communication",
+        "courseCredits": 4,
+        "courseSemester": "1-1",
+        "courseDuration": "fullSem",
+        "courseDescription": "This course is an introduction to the basic concepts of signals and networks. The course will cover the basics of circuits involving resistors, capacitors and inductors, and also the Fourier series",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "Quiz 1": [12, 24],
+            "Quiz 2": [15, 100],
+            "Mid Sem": [21, 42],
+            "End Sem": [32, 100],
+            "Assignments": [[2.5, 40], [2.5,40], [2.5,40],[2.5,40],[1.67,10],[1.67,10],[1.67,10]],
+            "Project": [5,10]
+        },
+        "color": "lime"
+    },
+    {
         "courseCode": "EC2.101",
         "courseName": "Digital Systems and Microcontrollers",
         "courseSubject": "Electronics and Communication",
