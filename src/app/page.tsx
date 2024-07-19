@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* Hero */}
       <div className="flex-grow flex flex-col justify-around items-center px-4 sm:px-8 md:px-12 lg:px-16">
-        <div className="text-center">
+        <div className="text-center flex-col">
           <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold text-white mb-2">
             Welcome to
           </h2>
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="text-center my-7">
             <Link
               href="/sem"
-              className="bg-white text-l text-gray-600 font-bold py-3.5 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+              className="bg-white text-base sm:text-l text-gray-600 font-bold py-4 sm:py-4 px-1 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 max-w-xs sm:max-w-sm whitespace-normal"
             >
               Calculate Course Percentage
             </Link>
@@ -39,13 +39,14 @@ export default function Home() {
           <div className='my-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2'>
             <Link
               href="/sgpa"
-              className="bg-white text-l text-gray-600 font-bold py-3 px-2 mx-3 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 min-w-[150px] flex-1"
+              className="bg-white text-l text-gray-600 font-bold py-3 px-2 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 min-w-[150px] flex-1"
             >
               Calculate SGPA
             </Link>
+            <div className="hidden sm:block w-1 h-8" />
             <Link
               href="/cgpa"
-              className="bg-white text-l text-gray-600 font-bold py-3 px-2 mx-3 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 min-w-[150px] flex-1"
+              className="bg-white text-l text-gray-600 font-bold py-3 px-2 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 min-w-[150px] flex-1"
             >
               Calculate CGPA
             </Link>
