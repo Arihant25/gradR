@@ -28,24 +28,24 @@ export default function Home() {
           <h1 className="text-7xl sm:text-8xl md:text-9xl font-extrabold text-white">
             GradR
           </h1>
-          <div className="text-center my-6">
+          <div className="text-center my-7">
             <Link
               href="/sem"
-              className="bg-white text-l text-gray-600 font-bold py-3 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+              className="bg-white text-l text-gray-600 font-bold py-3.5 sm:py-3 px-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
             >
               Calculate Course Percentage
             </Link>
           </div>
-          <div className='my-10'>
+          <div className='my-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2'>
             <Link
               href="/sgpa"
-              className="bg-white text-l text-gray-600 font-bold py-3 sm:py-3 px-2 mx-4 sm:px-12 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+              className="bg-white text-l text-gray-600 font-bold py-3 px-2 mx-3 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 min-w-[150px] flex-1"
             >
               Calculate SGPA
             </Link>
             <Link
               href="/cgpa"
-              className="bg-white text-l text-gray-600 font-bold py-3 sm:py-3 px-2 mx-4 sm:px-6 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 p-63"
+              className="bg-white text-l text-gray-600 font-bold py-3 px-2 mx-3 rounded-md hover:bg-vivid-cerulean hover:text-white transition-colors duration-200 min-w-[150px] flex-1"
             >
               Calculate CGPA
             </Link>
