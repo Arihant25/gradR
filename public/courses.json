@@ -251,7 +251,14 @@
         "courseDuration": "fullSem",
         "courseDescription": "This",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseGradingPolicy": {
+            "Quiz 1": [15, 100],
+            "Quiz 2": [10, 100],
+            "Surprise Quiz": [10, 100],
+            "Mid Sem": [30, 100],
+            "End Sem": [35, 100]
+        },
+        "color": "emerald"
     },
     {
         "courseCode": "CS4.301",
@@ -262,7 +269,8 @@
         "courseDuration": "secondHalf",
         "courseDescription": "",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseGradingPolicy": {},
+        "color": "lime"
     },
     {
         "courseCode": "CS1.302",
@@ -271,9 +279,15 @@
         "courseCredits": 2,
         "courseSemester": "2-1",
         "courseDuration": "firstHalf",
-        "courseDescription": "",
-        "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseDescription": "This course is an introduction to the basic concepts of automata theory. The course will cover the basics of finite automata, regular expressions, context-free grammars, pushdown automata, and Turing machines.",
+        "coursePrerequisites": "None",
+        "courseGradingPolicy": {
+            "Quiz": [20, 100],
+            "Final Exam": [35, 100],
+            "Theory Assignments": [[12.5, 100], [12.5, 100]],
+            "Programming Assignment": [20, 100]
+        },
+        "color": "yellow"
     },
     {
         "courseCode": "CS1.301",
@@ -284,7 +298,8 @@
         "courseDuration": "fullSem",
         "courseDescription": "",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseGradingPolicy": {},
+        "color": "red"
     },
     {
         "courseCode": "CS3.301",
@@ -293,9 +308,17 @@
         "courseCredits": 4,
         "courseSemester": "2-1",
         "courseDuration": "fullSem",
-        "courseDescription": "",
-        "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseDescription": "This course is an introduction to the basic concepts of operating systems and networks. The course will cover the basics of operating system structures, processes, threads, CPU scheduling, memory management, file systems, and network protocols.",
+        "coursePrerequisites": "Computer Programming ; Computer Systems Organisation",
+        "courseGradingPolicy": {
+            "Quiz": [5, 100],
+            "Mid Sem": [15, 100],
+            "End Sem": [30, 100],
+            "Mini Projects": [[10, 100], [10, 100], [10, 100]],
+            "Project": [15, 100],
+            "Bonus": [5, 100]
+        },
+        "color": "blue"
     },
     {
         "courseCode": "SC1.110",
@@ -306,7 +329,8 @@
         "courseDuration": "fullSem",
         "courseDescription": "",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseGradingPolicy": {},
+        "color": "purple"
     },
     {
         "courseCode": "EC3.202",
@@ -317,7 +341,8 @@
         "courseDuration": "firstHalf",
         "courseDescription": "",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {}
+        "courseGradingPolicy": {},
+        "color": "orange"
     },
     {
         "courseCode": "CS6.301",
