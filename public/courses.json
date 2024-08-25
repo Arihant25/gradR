@@ -327,9 +327,15 @@
         "courseCredits": 4,
         "courseSemester": "2-1",
         "courseDuration": "fullSem",
-        "courseDescription": "",
+        "courseDescription": "This course is an introduction to the basic concepts in Sciences, like Thermodynamics.",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {},
+        "courseGradingPolicy": {
+            "Quiz 1": [15, 100],
+            "Quiz 2": [15, 100],
+            "Mid Sem": [25, 100],
+            "End Sem": [25, 100],
+            "Assignments": [[4, 10], [4, 10], [4, 10], [4, 10], [4, 10]]
+        },
         "color": "purple"
     },
     {
