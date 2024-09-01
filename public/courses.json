@@ -330,7 +330,7 @@
         "courseDescription": "This course is an introduction to the basic concepts in Sciences, like Thermodynamics.",
         "coursePrerequisites": "",
         "courseGradingPolicy": {
-            "Quiz 1": [15, 100],
+            "Quiz 1": [15, 15],
             "Quiz 2": [15, 100],
             "Mid Sem": [25, 100],
             "End Sem": [25, 100],
