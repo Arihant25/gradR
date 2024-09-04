@@ -311,7 +311,7 @@
         "courseDescription": "This course is an introduction to the basic concepts of operating systems and networks. The course will cover the basics of operating system structures, processes, threads, CPU scheduling, memory management, file systems, and network protocols.",
         "coursePrerequisites": "Computer Programming ; Computer Systems Organisation",
         "courseGradingPolicy": {
-            "Quiz": [5, 100],
+            "Quiz": [5, 20],
             "Mid Sem": [15, 100],
             "End Sem": [30, 100],
             "Mini Projects": [[10, 100], [10, 100], [10, 100]],
