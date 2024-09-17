@@ -298,7 +298,13 @@
         "courseDuration": "fullSem",
         "courseDescription": "",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {},
+        "courseGradingPolicy": {
+            "Quiz 1": [12.5, 28],
+            "Quiz 2": [12.5, 100],
+            "Mid Sem": [25, 100],
+            "End Sem": [35, 100],
+            "Assignments": [[3, 20], [3, 20], [3, 20], [3, 20], [3, 20]]
+        },
         "color": "red"
     },
     {
