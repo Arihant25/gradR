@@ -269,7 +269,13 @@
         "courseDuration": "secondHalf",
         "courseDescription": "",
         "coursePrerequisites": "",
-        "courseGradingPolicy": {},
+        "courseGradingPolicy": {
+            "Class Quizzes": [[5, 100], [5, 100], [5, 100]],
+            "Assignments": [[5, 100], [5, 100], [5, 100], [5, 100]],
+            "Quiz 2": [15, 100],
+            "Project": [30, 100],
+            "End Sem": [20, 100]
+        },
         "color": "lime"
     },
     {
