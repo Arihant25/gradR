@@ -324,7 +324,7 @@
         "coursePrerequisites": "Computer Programming ; Computer Systems Organisation",
         "courseGradingPolicy": {
             "Quiz": [5, 20],
-            "Mid Sem": [15, 100],
+            "Mid Sem": [15, 35],
             "End Sem": [30, 100],
             "Mini Projects": [[10, 100], [10, 100], [10, 100]],
             "Project": [15, 100],
