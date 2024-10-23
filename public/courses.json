@@ -252,10 +252,10 @@
         "courseDescription": "This",
         "coursePrerequisites": "",
         "courseGradingPolicy": {
-            "Quiz 1": [15, 100],
-            "Quiz 2": [10, 100],
+            "Quiz 1": [15, 20],
+            "Quiz 2": [10, 30],
             "Surprise Quiz": [10, 100],
-            "Mid Sem": [30, 100],
+            "Mid Sem": [30, 50],
             "End Sem": [35, 100]
         },
         "color": "emerald"
