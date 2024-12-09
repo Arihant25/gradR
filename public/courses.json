@@ -129,25 +129,6 @@
         "color": "lime"
     },
     {
-        "courseCode": "EC2.103",
-        "courseName": "Networks Signals and Systems",
-        "courseSubject": "Electronics and Communication",
-        "courseCredits": 4,
-        "courseSemester": "1-1",
-        "courseDuration": "fullSem",
-        "courseDescription": "This course is an introduction to the basic concepts of signals and networks. The course will cover the basics of circuits involving resistors, capacitors and inductors, and also the Fourier series",
-        "coursePrerequisites": "None",
-        "courseGradingPolicy": {
-            "Quiz 1": [12, 24],
-            "Quiz 2": [15, 100],
-            "Mid Sem": [21, 42],
-            "End Sem": [32, 100],
-            "Assignments": [[2.5, 40], [2.5,40], [2.5,40],[2.5,40],[1.67,10],[1.67,10],[1.67,10]],
-            "Project": [5,10]
-        },
-        "color": "lime"
-    },
-    {
         "courseCode": "EC2.101",
         "courseName": "Digital Systems and Microcontrollers",
         "courseSubject": "Electronics and Communication",
@@ -293,7 +274,8 @@
             "Quiz 2": [15, 15],
             "Mid Sem": [20, 20],
             "End Sem": [30, 30],
-            "Assignments": [[3.33, 50], [3.33, 30], [3.34, 35], [3.34, 45], [3.33, 30], [3.33, 30]]
+            "Assignments": [[2.5, 50], [2.5, 30], [2.5, 35], [2.5, 45], [2.5, 30], [2.5, 30]],
+            "In-Class Quizzes": [[1, 1], [1, 1], [1, 1], [1, 1], [1, 1]]
         },
         "color": "amber"
     },
