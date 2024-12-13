@@ -417,14 +417,14 @@
         "courseCredits": 4,
         "courseSemester": "2-1",
         "courseDuration": "fullSem",
-        "courseDescription": "This course is an introduction to the basic concepts in Sciences, like Thermodynamics.",
+        "courseDescription": "This course is an introduction to the basic concepts in Sciences, like Thermodynamics and Quantum mechanics.",
         "coursePrerequisites": "",
         "courseGradingPolicy": {
             "Quiz 1": [15, 15],
-            "Quiz 2": [15, 100],
-            "Mid Sem": [25, 100],
-            "End Sem": [25, 100],
-            "Assignments": [[4, 10], [4, 10], [4, 10], [4, 10], [4, 10]]
+            "Quiz 2": [15, 30],
+            "Mid Sem": [25, 25],
+            "End Sem": [25, 75],
+            "Assignments": [[3.33, 10], [3.33, 10], [3.33, 10], [10, 30]]
         },
         "color": "purple"
     },
