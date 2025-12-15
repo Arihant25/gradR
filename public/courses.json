@@ -40,7 +40,7 @@
         ]
       ]
     },
-    "color": "yellow"
+    "color": "blue"
   },
   {
     "courseCode": "CS0.101",
@@ -95,7 +95,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "MA4.101",
@@ -128,7 +128,7 @@
         100
       ]
     },
-    "color": "red"
+    "color": "blue"
   },
   {
     "courseCode": "EC2.102",
@@ -226,7 +226,7 @@
         15
       ]
     },
-    "color": "amber"
+    "color": "orange"
   },
   {
     "courseCode": "EC2.103",
@@ -323,7 +323,7 @@
         15
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "EC2.103",
@@ -386,7 +386,7 @@
         10
       ]
     },
-    "color": "lime"
+    "color": "orange"
   },
   {
     "courseCode": "EC2.101",
@@ -449,7 +449,7 @@
         ]
       ]
     },
-    "color": "green"
+    "color": "orange"
   },
   {
     "courseCode": "MA2.101",
@@ -520,7 +520,7 @@
         ]
       ]
     },
-    "color": "yellow"
+    "color": "blue"
   },
   {
     "courseCode": "CS3.303",
@@ -682,7 +682,7 @@
         ]
       ]
     },
-    "color": "red"
+    "color": "green"
   },
   {
     "courseCode": "CS6.201",
@@ -735,7 +735,7 @@
         ]
       ]
     },
-    "color": "purple"
+    "color": "green"
   },
   {
     "courseCode": "CS2.201",
@@ -778,7 +778,7 @@
         ]
       ]
     },
-    "color": "yellow"
+    "color": "green"
   },
   {
     "courseCode": "MA6.101",
@@ -811,7 +811,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "blue"
   },
   {
     "courseCode": "MA6.102",
@@ -888,7 +888,7 @@
         ]
       ]
     },
-    "color": "amber"
+    "color": "blue"
   },
   {
     "courseCode": "EC2.201",
@@ -943,7 +943,7 @@
         ]
       ]
     },
-    "color": "red"
+    "color": "orange"
   },
   {
     "courseCode": "EC5.202",
@@ -986,7 +986,7 @@
         ]
       ]
     },
-    "color": "green"
+    "color": "orange"
   },
   {
     "courseCode": "EC5.201",
@@ -1095,7 +1095,7 @@
         40
       ]
     },
-    "color": "blue"
+    "color": "orange"
   },
   {
     "courseCode": "CS4.301",
@@ -1152,7 +1152,7 @@
         100
       ]
     },
-    "color": "lime"
+    "color": "green"
   },
   {
     "courseCode": "CS1.302",
@@ -1187,7 +1187,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "green"
   },
   {
     "courseCode": "CS1.301",
@@ -1238,7 +1238,7 @@
         ]
       ]
     },
-    "color": "red"
+    "color": "green"
   },
   {
     "courseCode": "CS3.301",
@@ -1285,7 +1285,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "SC1.110",
@@ -1332,7 +1332,7 @@
         ]
       ]
     },
-    "color": "purple"
+    "color": "teal"
   },
   {
     "courseCode": "EC3.202",
@@ -1400,7 +1400,7 @@
         ]
       ]
     },
-    "color": "sky"
+    "color": "green"
   },
   {
     "courseCode": "CS7.301",
@@ -1443,7 +1443,7 @@
         ]
       ]
     },
-    "color": "rose"
+    "color": "green"
   },
   {
     "courseCode": "SC1.111",
@@ -1486,7 +1486,7 @@
         ]
       ]
     },
-    "color": "orange"
+    "color": "teal"
   },
   {
     "courseCode": "HS8.102",
@@ -1529,7 +1529,7 @@
         ]
       ]
     },
-    "color": "orange"
+    "color": "purple"
   },
   {
     "courseCode": "CS1.406",
@@ -1562,7 +1562,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "SC3.303",
@@ -1587,7 +1587,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "CE1.603",
@@ -1645,7 +1645,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "HS0.215",
@@ -1703,7 +1703,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "CE1.608",
@@ -1786,7 +1786,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : By the end of the course, students will be able to: • CO1: Understand the core architectures and functionalities of Large Language Models (LLMs) and Small Language Models (SLMs) and their differences. • CO2: Analyze the applications of LLMs and SLMs in domains such as Education and Healthcare and assess their potential impact. • CO3: Design and implement agentic frameworks using language models to solve real-world problems in specific domains like Education and Healthcare. • CO4: Critically evaluate the ethical challenges in deploying language models, including issues of bias, fairness, and data privacy. Course Topics : Module 1: Foundations of Language Models • 1.1 Introduction to Language Models: Definition, evolution, and comparison between LLMs and SLMs. • 1.2 Key Arc",
+    "courseDescription": "Course Outcomes : By the end of the course, students will be able to: \u2022 CO1: Understand the core architectures and functionalities of Large Language Models (LLMs) and Small Language Models (SLMs) and their differences. \u2022 CO2: Analyze the applications of LLMs and SLMs in domains such as Education and Healthcare and assess their potential impact. \u2022 CO3: Design and implement agentic frameworks using language models to solve real-world problems in specific domains like Education and Healthcare. \u2022 CO4: Critically evaluate the ethical challenges in deploying language models, including issues of bias, fairness, and data privacy. Course Topics : Module 1: Foundations of Language Models \u2022 1.1 Introduction to Language Models: Definition, evolution, and comparison between LLMs and SLMs. \u2022 1.2 Key Arc",
     "coursePrerequisites": "At least one graduate level Introductory AI/ML course (Introduction to NLP, Statistical Methods in AI, Advanced NLP, Information Retrieval and Extraction)",
     "courseGradingPolicy": {
       "project_proposal_prototype_and_presentation": [
@@ -1798,16 +1798,16 @@
         100
       ]
     },
-    "color": "red"
+    "color": "lime"
   },
   {
     "courseCode": "CG5.405",
-    "courseName": "Art, Vision, & Feelings: Psychological, Biological, and Computational Perspectives on Beholder’s POV",
+    "courseName": "Art, Vision, & Feelings: Psychological, Biological, and Computational Perspectives on Beholder\u2019s POV",
     "courseSubject": "Cognitive Science",
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes (COs) (5 to 8 for a 3 or 4 credit course): After completion of this course successfully, the students will be able to.. CO1: Demonstrate an understanding and appreciation of diverse perspectives in perceiving and feeling visual art from the beholder’s point of view (Understand) CO2: Evaluate the relationship between emotion, visual art, and well-being (Understand) CO3: Describe the functional architecture of the human visual system and how it processes the complex visual scene filled with details of form, color, depth and motion (Understand). CO4: Apply and analyze computational models of visual perception to explain the processing and aesthetic appreciation of visual art (Apply and Analyze) CO5: Design and conduct an eye tracking study to determine how humans explore a vis",
+    "courseDescription": "Course Outcomes (COs) (5 to 8 for a 3 or 4 credit course): After completion of this course successfully, the students will be able to.. CO1: Demonstrate an understanding and appreciation of diverse perspectives in perceiving and feeling visual art from the beholder\u2019s point of view (Understand) CO2: Evaluate the relationship between emotion, visual art, and well-being (Understand) CO3: Describe the functional architecture of the human visual system and how it processes the complex visual scene filled with details of form, color, depth and motion (Understand). CO4: Apply and analyze computational models of visual perception to explain the processing and aesthetic appreciation of visual art (Apply and Analyze) CO5: Design and conduct an eye tracking study to determine how humans explore a vis",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "assignment": [
@@ -1840,7 +1840,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes (COs) After completion of this course successfully students will be able to: CO1: Explain the philosophical nature of the basic concepts and principles of ethics CO2: Analyze ethical arguments for logical validity, soundness, and informal fallacies CO3: Demonstrate the knowledge of conceptual challenges involved in normative inquiry in the ethical domain CO4: Develop skills to formulate fundamental nuances in ethical justification and explanations CO5. Identify the various kinds of normative elements that constitute ethical frameworks CO6. Discuss the major tenets of normative ethical theories and their scope of application Detailed Syllabus: Unit I – Introduction (3 hours): Distinction between conventional and critical ethics, philosophical tools for argument analysis, int",
+    "courseDescription": "Course Outcomes (COs) After completion of this course successfully students will be able to: CO1: Explain the philosophical nature of the basic concepts and principles of ethics CO2: Analyze ethical arguments for logical validity, soundness, and informal fallacies CO3: Demonstrate the knowledge of conceptual challenges involved in normative inquiry in the ethical domain CO4: Develop skills to formulate fundamental nuances in ethical justification and explanations CO5. Identify the various kinds of normative elements that constitute ethical frameworks CO6. Discuss the major tenets of normative ethical theories and their scope of application Detailed Syllabus: Unit I \u2013 Introduction (3 hours): Distinction between conventional and critical ethics, philosophical tools for argument analysis, int",
     "coursePrerequisites": "Nil",
     "courseGradingPolicy": {
       "assignments": [
@@ -1869,7 +1869,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes: After successful completion of this course, students will be able to: • CO-1: develop an understanding of various experimental designs • CO-2: recognize and employ appropriate statistical packages to analyze data • CO-3: apply appropriate parametric and non-parametric analyses techniques • CO-4: perform exploratory data analysis and examine intrinsic relationships between variables • CO-5: reflect and draw appropriate inferences post analyses • CO-6: create custom code by adapting exploratory and confirmatory analyses techniques Course Topics: Tentative schedule - Week 1: Introduction: why do statistics, and basics of research designWeek 2: Installing R and basics of R Week 3: Descriptive statistics and visualizing data Week 4: Organizing, sorting, merging, and reading dat",
+    "courseDescription": "Course Outcomes: After successful completion of this course, students will be able to: \u2022 CO-1: develop an understanding of various experimental designs \u2022 CO-2: recognize and employ appropriate statistical packages to analyze data \u2022 CO-3: apply appropriate parametric and non-parametric analyses techniques \u2022 CO-4: perform exploratory data analysis and examine intrinsic relationships between variables \u2022 CO-5: reflect and draw appropriate inferences post analyses \u2022 CO-6: create custom code by adapting exploratory and confirmatory analyses techniques Course Topics: Tentative schedule - Week 1: Introduction: why do statistics, and basics of research designWeek 2: Installing R and basics of R Week 3: Descriptive statistics and visualizing data Week 4: Organizing, sorting, merging, and reading dat",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "assignments": [
@@ -1926,7 +1926,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "SC2.203",
@@ -1955,7 +1955,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "PD2.422",
@@ -1964,7 +1964,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Objective : As a part of the Business Finance course, we go over the fundamentals of business finance in the contemporary world. We discuss some basic definitions and concepts of business finance regarding organizations required to understand their financial health concerning the markets. The managers need to know, understand and analyze the three main arms of the organization's financial health. The course will cover the financial statements in detail. The course also covers aspects of assets, liabilities, debits, credits, profit, loss, earning, lending, and a detailed dive into financial ratios. The other main modules we cover are as follows: • Working capital decision-making, • forecasting, • Startup Valuation, and • Time Value of Money (TVM) CO-1 Demonstrate a good understanding",
+    "courseDescription": "Course Objective : As a part of the Business Finance course, we go over the fundamentals of business finance in the contemporary world. We discuss some basic definitions and concepts of business finance regarding organizations required to understand their financial health concerning the markets. The managers need to know, understand and analyze the three main arms of the organization's financial health. The course will cover the financial statements in detail. The course also covers aspects of assets, liabilities, debits, credits, profit, loss, earning, lending, and a detailed dive into financial ratios. The other main modules we cover are as follows: \u2022 Working capital decision-making, \u2022 forecasting, \u2022 Startup Valuation, and \u2022 Time Value of Money (TVM) CO-1 Demonstrate a good understanding",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -1988,7 +1988,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "yellow"
   },
   {
     "courseCode": "SC1.102",
@@ -2009,7 +2009,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "EC2.412",
@@ -2046,7 +2046,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "CG2.401",
@@ -2055,7 +2055,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes (COs) (5 to 8 for a 3 or 4 creditcourse): A student introduced to the concepts in the course will be able to: CO-1: Neuroanatomy CO-2: Brain &Behavior – perceptual systems CO-3: Techniques for brain imaging CO-4: Brain signal analysis CO-5: Clinical case studies CO-6: Cognitive process – memory, decision making, empathy, learning CO-7: Ethics of Neuroscience findings OBJECTIVE : Understand the mechanisms of the brain in sensory & higher order cognitiveprocessing. The course will examine how modern cognitive neuroscientists explore the neural underpinnings of sensory information – vision, sound, touch,taste& smell, the neural processing supporting visual/auditory attention, areas of the brain attributed to motion & depth perception and action; higher order cognitive processe",
+    "courseDescription": "Course Outcomes (COs) (5 to 8 for a 3 or 4 creditcourse): A student introduced to the concepts in the course will be able to: CO-1: Neuroanatomy CO-2: Brain &Behavior \u2013 perceptual systems CO-3: Techniques for brain imaging CO-4: Brain signal analysis CO-5: Clinical case studies CO-6: Cognitive process \u2013 memory, decision making, empathy, learning CO-7: Ethics of Neuroscience findings OBJECTIVE : Understand the mechanisms of the brain in sensory & higher order cognitiveprocessing. The course will examine how modern cognitive neuroscientists explore the neural underpinnings of sensory information \u2013 vision, sound, touch,taste& smell, the neural processing supporting visual/auditory attention, areas of the brain attributed to motion & depth perception and action; higher order cognitive processe",
     "coursePrerequisites": "Intro to psychology, Cognitive Science",
     "courseGradingPolicy": {
       "mid_sem_1_exam": [
@@ -2151,7 +2151,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "CS1.403",
@@ -2180,7 +2180,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CL3.101",
@@ -2189,7 +2189,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO-1 Use computational methods to analyse language at morpho-syntactic levels CO-2 Develop requisite skills for text and speech problem solving CO-3 Develop computational resources and tools for Indian languages with different language structures CO-4 Perform theoretical research at phonology, morphology and syntax levels CO-5 Apply CL/NLP techniques for real world applications by using real time data Unit 1: What is CL and where does it apply? Issues and challenges; Language processing pipeline for text processing: Structural Analysis at various levels – word (POS, morphology), phrase (chunk), sentence (syntactic parsing). Word meaning: Lexical Semantics, Dealing with Ambiguities (WSD/WTD) Unit 2: Morph analysis: Morph analysers and word generators; Recap of basic units in word formation:",
+    "courseDescription": "CO-1 Use computational methods to analyse language at morpho-syntactic levels CO-2 Develop requisite skills for text and speech problem solving CO-3 Develop computational resources and tools for Indian languages with different language structures CO-4 Perform theoretical research at phonology, morphology and syntax levels CO-5 Apply CL/NLP techniques for real world applications by using real time data Unit 1: What is CL and where does it apply? Issues and challenges; Language processing pipeline for text processing: Structural Analysis at various levels \u2013 word (POS, morphology), phrase (chunk), sentence (syntactic parsing). Word meaning: Lexical Semantics, Dealing with Ambiguities (WSD/WTD) Unit 2: Morph analysis: Morph analysers and word generators; Recap of basic units in word formation:",
     "coursePrerequisites": "Introduction to Linguistics-1",
     "courseGradingPolicy": {
       "assignments": [
@@ -2213,7 +2213,7 @@
         100
       ]
     },
-    "color": "red"
+    "color": "lime"
   },
   {
     "courseCode": "CL2.404",
@@ -2250,7 +2250,7 @@
         100
       ]
     },
-    "color": "gray"
+    "color": "lime"
   },
   {
     "courseCode": "CS7.302",
@@ -2275,7 +2275,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS7.505",
@@ -2308,7 +2308,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "SC4.102",
@@ -2329,7 +2329,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "CS0.302",
@@ -2358,7 +2358,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "HS0.221",
@@ -2367,7 +2367,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "This course provides a theoretical and conceptual understanding of ethical values enshrined in constitutions. Key values are introduced and interpreted through a political theory lens. Contemporary examples of court cases and judgments are also used to understand how these ethical values are interpreted in practice. CO1: Interpret specific values enshrined in contemporary constitutions CO2: Evaluate contemporary issues in the light of constitutional values CO2: Apply constitutional values to contemporary social and political debates 1. Justice and its Forms This module introduces justice as an ethical value. It identifies how it can be interpreted in four ways – procedural, restorative, retributive, and distributive. Using these interpretations, it is applied to an understanding of justice",
+    "courseDescription": "This course provides a theoretical and conceptual understanding of ethical values enshrined in constitutions. Key values are introduced and interpreted through a political theory lens. Contemporary examples of court cases and judgments are also used to understand how these ethical values are interpreted in practice. CO1: Interpret specific values enshrined in contemporary constitutions CO2: Evaluate contemporary issues in the light of constitutional values CO2: Apply constitutional values to contemporary social and political debates 1. Justice and its Forms This module introduces justice as an ethical value. It identifies how it can be interpreted in four ways \u2013 procedural, restorative, retributive, and distributive. Using these interpretations, it is applied to an understanding of justice",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "quizzes": [
@@ -2392,7 +2392,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "(1) Familiarity with continuous variable (CV) quantum systems (2) Analyze intricacies of infinite dimensional quantum systems (3) Conclude usefulness of Gaussian systems for practical uses (4) Apply above to understand correlations among CV systems (5) Apply the techniques above in quantum metrology (6) Understand universal quantum computation with CV systems Part 1: Quadratic Hamiltonians and Gaussian states Quantum states and measurement; CP-dynamics, Continuous variables, Quadratic Hamiltonians and Gaussian states, Symplectic group, Decomposition of Gaussian Gaussian states (Bloch-Messiah Decomposition), Williamson’s Theorem, Covariance matrices, Uncertainty principle, Coherent states Part 2: Dynamics and phase space methods Fourier-Weyl transform, Characteristic functions and Wigner fu",
+    "courseDescription": "(1) Familiarity with continuous variable (CV) quantum systems (2) Analyze intricacies of infinite dimensional quantum systems (3) Conclude usefulness of Gaussian systems for practical uses (4) Apply above to understand correlations among CV systems (5) Apply the techniques above in quantum metrology (6) Understand universal quantum computation with CV systems Part 1: Quadratic Hamiltonians and Gaussian states Quantum states and measurement; CP-dynamics, Continuous variables, Quadratic Hamiltonians and Gaussian states, Symplectic group, Decomposition of Gaussian Gaussian states (Bloch-Messiah Decomposition), Williamson\u2019s Theorem, Covariance matrices, Uncertainty principle, Coherent states Part 2: Dynamics and phase space methods Fourier-Weyl transform, Characteristic functions and Wigner fu",
     "coursePrerequisites": "Basic Quantum Mechanics, Linear Algebra",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -2412,7 +2412,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "blue"
   },
   {
     "courseCode": "CS4.401",
@@ -2445,7 +2445,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS4.302",
@@ -2466,7 +2466,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "HS4.303",
@@ -2475,7 +2475,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of this course successfully students will be able to CO1: Understand and explain key concepts in digital democracy and data governance. CO2 Critically assess the EU’s philosophy and experiments in utilising information and communication technologies (ICT) for democratic practices and processes. CO3: Assess the impact and relevance of tech-policy initiatives in the EU member states. CO4 Understand the European approach on data governance and its contradiction with the American and Chinese approach. CO5: Understand the Brussels Effect in the information society, particularly in the Global South. CO6: Develop an understanding of emerging challenges in digital democracy and data governance. The course is divided into five modules (i) Introduction to Digital Democracy and the E",
+    "courseDescription": "After completion of this course successfully students will be able to CO1: Understand and explain key concepts in digital democracy and data governance. CO2 Critically assess the EU\u2019s philosophy and experiments in utilising information and communication technologies (ICT) for democratic practices and processes. CO3: Assess the impact and relevance of tech-policy initiatives in the EU member states. CO4 Understand the European approach on data governance and its contradiction with the American and Chinese approach. CO5: Understand the Brussels Effect in the information society, particularly in the Global South. CO6: Develop an understanding of emerging challenges in digital democracy and data governance. The course is divided into five modules (i) Introduction to Digital Democracy and the E",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -2524,7 +2524,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CE8.401",
@@ -2566,7 +2566,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO-1 : Explain the challenges faced by distributed systems in terms of lack of global time, synchrony, faults, programming support, etc. CO-2 :Employ standard distributed programming frameworks to write distributed programs for problem solving CO-3 : Explain the properties and design principles of various real-world and practical distributed systems CO-4 :Interpret the impact of faults in distributed systems in the context of important problems such as distributed agreement, distributed consensus, and distributed transaction processing CO-5 :Analyze distributed algorithms for graphs with respect to correctness, round complexity, and message complexity. CO-6 : Analyze the limitations of distributed systems and assess the operational scope of large scale distributed systems Unit 1 • Introduc",
+    "courseDescription": "CO-1 : Explain the challenges faced by distributed systems in terms of lack of global time, synchrony, faults, programming support, etc. CO-2 :Employ standard distributed programming frameworks to write distributed programs for problem solving CO-3 : Explain the properties and design principles of various real-world and practical distributed systems CO-4 :Interpret the impact of faults in distributed systems in the context of important problems such as distributed agreement, distributed consensus, and distributed transaction processing CO-5 :Analyze distributed algorithms for graphs with respect to correctness, round complexity, and message complexity. CO-6 : Analyze the limitations of distributed systems and assess the operational scope of large scale distributed systems Unit 1 \u2022 Introduc",
     "coursePrerequisites": "operating systems, networks, algorithms",
     "courseGradingPolicy": {
       "in_class_quiz_exams": [
@@ -2586,7 +2586,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CE1.601",
@@ -2624,7 +2624,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO-1 Explain how to compute the notion of scalar and vector potentials and use them to compute electric and magnetic fields in various problems. CO-2 Solve basic problems of finding electric and magnetic fields of configurations of charges/currents including dipoles in free space or in matter. CO-3 Recognize the Maxwell’s equations and explain how they lead to electromagnetic waves in free space. Unit 1: Mathematical background. Basic vector calculus, orthogonal coordinate systems and Dirac delta function. Unit 2: Electrostatics. Coulomb’s law, electric field, Gauss’s law, electric potential, electrostatic energy, conductors, electric fields in matter: polarization, bound charges, dielectrics Unit 3: Magnetostatics. Lorentz force law, Bio-Savart law, Ampère’s law, vector potential, magneti",
+    "courseDescription": "CO-1 Explain how to compute the notion of scalar and vector potentials and use them to compute electric and magnetic fields in various problems. CO-2 Solve basic problems of finding electric and magnetic fields of configurations of charges/currents including dipoles in free space or in matter. CO-3 Recognize the Maxwell\u2019s equations and explain how they lead to electromagnetic waves in free space. Unit 1: Mathematical background. Basic vector calculus, orthogonal coordinate systems and Dirac delta function. Unit 2: Electrostatics. Coulomb\u2019s law, electric field, Gauss\u2019s law, electric potential, electrostatic energy, conductors, electric fields in matter: polarization, bound charges, dielectrics Unit 3: Magnetostatics. Lorentz force law, Bio-Savart law, Amp\u00e8re\u2019s law, vector potential, magneti",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "assignments_quizzes": [
@@ -2636,7 +2636,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "EC2.202",
@@ -2657,7 +2657,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "CS6.402",
@@ -2666,7 +2666,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO1: Understanding basics of VR Systems CO2: Apply requirement elicitation and specification methods for VR Systems in practice CO3: Design and Implement VR Systems by selecting appropriate hardware and software CO4: Evaluate VR product quality by applying testing methods to VR Systems CO5: Deploy VR Systems through systematic methods and learns collaborative coding practices Unit 1: Intro to Virtual Reality – About VR, VR Experiences and Use-Cases, Hardware- Software, Human Physiology and Perception, Developer Ecosystem and Practices, VR Enterprise Software Products. • Unit 2: Physics of Virtual Environments – Geometry, Position, Orientation, Axis-Angle of Rotation, View Transformations, Light, Camera, Shadow, Human Eye – Accommodation and Vergence, their conflict, Ray Casting, Shading, L",
+    "courseDescription": "CO1: Understanding basics of VR Systems CO2: Apply requirement elicitation and specification methods for VR Systems in practice CO3: Design and Implement VR Systems by selecting appropriate hardware and software CO4: Evaluate VR product quality by applying testing methods to VR Systems CO5: Deploy VR Systems through systematic methods and learns collaborative coding practices Unit 1: Intro to Virtual Reality \u2013 About VR, VR Experiences and Use-Cases, Hardware- Software, Human Physiology and Perception, Developer Ecosystem and Practices, VR Enterprise Software Products. \u2022 Unit 2: Physics of Virtual Environments \u2013 Geometry, Position, Orientation, Axis-Angle of Rotation, View Transformations, Light, Camera, Shadow, Human Eye \u2013 Accommodation and Vergence, their conflict, Ray Casting, Shading, L",
     "coursePrerequisites": "Programming knowledge in any OOPs",
     "courseGradingPolicy": {
       "class_activities": [
@@ -2686,7 +2686,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "HS0.217",
@@ -2763,7 +2763,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : After completing this course, students will be able to: 1. Understand the importance of evaluation in NLP and the differences between automatic and human evaluation methods. 2. Apply various evaluation metrics to assess the performance of NLP models and algorithms. 3. Utilize human evaluation frameworks effectively to gather qualitative insights. 4. Address challenges in evaluating NLP models in multilingual and low-resource settings. 5. Benchmark NLP models using widely accepted datasets and evaluation protocols. Course Topics : • Unit 1: Introduction to Evaluation in NLP: Covers the basics of evaluation, metrics (precision, recall, F1-score, BLEU, ROUGE), paradigms (intrinsic vs. extrinsic, task-based vs. corpus-based), and statistical significance testing. • Unit 2: Hu",
+    "courseDescription": "Course Outcomes : After completing this course, students will be able to: 1. Understand the importance of evaluation in NLP and the differences between automatic and human evaluation methods. 2. Apply various evaluation metrics to assess the performance of NLP models and algorithms. 3. Utilize human evaluation frameworks effectively to gather qualitative insights. 4. Address challenges in evaluating NLP models in multilingual and low-resource settings. 5. Benchmark NLP models using widely accepted datasets and evaluation protocols. Course Topics : \u2022 Unit 1: Introduction to Evaluation in NLP: Covers the basics of evaluation, metrics (precision, recall, F1-score, BLEU, ROUGE), paradigms (intrinsic vs. extrinsic, task-based vs. corpus-based), and statistical significance testing. \u2022 Unit 2: Hu",
     "coursePrerequisites": "Introduction to NLP",
     "courseGradingPolicy": {
       "assignments": [
@@ -2783,7 +2783,7 @@
         100
       ]
     },
-    "color": "red"
+    "color": "lime"
   },
   {
     "courseCode": "EC2.206",
@@ -2792,7 +2792,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : CO-1: Understand theoretical foundations of RF and microwave sensor technology. CO-2: The type of RF sensors and their applications. CO-3: Analyze sensor performance using S-parameters. CO-4: Evaluate design trade-offs and challenges in RF/microwave sensor systems. Course Topics : Unit 1: Electromagnetic Foundations for RF Sensing • Introduction of sensors and some basic terms. • Maxwell’s equations (integral & differential forms), continuity equation, displacement current. • Electromagnetic wave (EM wave) propagation: wave equation, plane waves in free space, dielectric, lossy media. • Wave parameters: intrinsic impedance, phase velocity, wavelength, propagation constant. • Interaction with materials: reflection, transmission, material effects, power flow (Poynting vecto",
+    "courseDescription": "Course Outcomes : CO-1: Understand theoretical foundations of RF and microwave sensor technology. CO-2: The type of RF sensors and their applications. CO-3: Analyze sensor performance using S-parameters. CO-4: Evaluate design trade-offs and challenges in RF/microwave sensor systems. Course Topics : Unit 1: Electromagnetic Foundations for RF Sensing \u2022 Introduction of sensors and some basic terms. \u2022 Maxwell\u2019s equations (integral & differential forms), continuity equation, displacement current. \u2022 Electromagnetic wave (EM wave) propagation: wave equation, plane waves in free space, dielectric, lossy media. \u2022 Wave parameters: intrinsic impedance, phase velocity, wavelength, propagation constant. \u2022 Interaction with materials: reflection, transmission, material effects, power flow (Poynting vecto",
     "coursePrerequisites": "Electromagnetism and Fundamental Circuit Concepts",
     "courseGradingPolicy": {
       "quizzes_mid_sem_exam": [
@@ -2804,7 +2804,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "HS8.202",
@@ -2813,7 +2813,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : Upon successful completion of this course, students should be able to: CO-1: Understand and engage with central debates in the field of Gender Studies. CO-2: Define and apply basic terms and concepts central to this field. CO-3: Apply a variety of methods of analyzing gender in the social context, drawing upon both primary and secondary sources. CO-4: Apply concepts and theories of Gender Studies to life experiences and historical events and processes. CO5: Communicate effectively about gender issues in both writing and speech, drawing upon Gender Studies scholarship and addressing a public audience. Course Topics: Unit1: Introduction to Gender Studies – Understanding the definitions, concepts and theories Historical perspectives – The Evolution of Gender Roles Unit 2: So",
+    "courseDescription": "Course Outcomes : Upon successful completion of this course, students should be able to: CO-1: Understand and engage with central debates in the field of Gender Studies. CO-2: Define and apply basic terms and concepts central to this field. CO-3: Apply a variety of methods of analyzing gender in the social context, drawing upon both primary and secondary sources. CO-4: Apply concepts and theories of Gender Studies to life experiences and historical events and processes. CO5: Communicate effectively about gender issues in both writing and speech, drawing upon Gender Studies scholarship and addressing a public audience. Course Topics: Unit1: Introduction to Gender Studies \u2013 Understanding the definitions, concepts and theories Historical perspectives \u2013 The Evolution of Gender Roles Unit 2: So",
     "coursePrerequisites": "Nil",
     "courseGradingPolicy": {
       "writing_assignments": [
@@ -2838,7 +2838,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes (COs): After completion of this course successfully, the students will be able to.. CO-1. Define quantum numbers for electrons, draw orbital diagrams, and state and apply the Pauli Exclusion Principle and Hund’s Rule to write the electronic configurations of atoms. CO-2. Explain the position of elements in the periodic table and the general periodic trends in atomic size, ionic size, ionization energy, etc. of elements. CO-3. State why chemical bonds form, identify the types of bonding that occur between metals/metal-nonmetal/nonmetal-nonmetal, state the current bonding models for simple inorganic and organic molecules, and predict important bonding parameters, structures, and properties. CO-4. Compare the various acid base theories, identify acid-base conjugate pairs, pred",
+    "courseDescription": "Course Outcomes (COs): After completion of this course successfully, the students will be able to.. CO-1. Define quantum numbers for electrons, draw orbital diagrams, and state and apply the Pauli Exclusion Principle and Hund\u2019s Rule to write the electronic configurations of atoms. CO-2. Explain the position of elements in the periodic table and the general periodic trends in atomic size, ionic size, ionization energy, etc. of elements. CO-3. State why chemical bonds form, identify the types of bonding that occur between metals/metal-nonmetal/nonmetal-nonmetal, state the current bonding models for simple inorganic and organic molecules, and predict important bonding parameters, structures, and properties. CO-4. Compare the various acid base theories, identify acid-base conjugate pairs, pred",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "assignments": [
@@ -2858,7 +2858,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS5.201",
@@ -2867,7 +2867,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes :After completion of this course successfully students will be able to: CO1: Apply the concept of development and economic growth from different perspectives CO2: Examine the interrelationship between economic growth and development CO3: Identify the role of technology in the development process CO4: Compare cross-country data, including through computational tools CO5. Analyze the alternative models of sustainable development in the face of looming climate crisis Course Topics: 1. ‘Growth’ in History of Economic Thought: The importance of economic growth from classical political economy to development economics. 2. Growth vs. Development:The ideas differentiating growth and development in early development economics. Growth as necessary but not sufficient for development. ",
+    "courseDescription": "Course Outcomes :After completion of this course successfully students will be able to: CO1: Apply the concept of development and economic growth from different perspectives CO2: Examine the interrelationship between economic growth and development CO3: Identify the role of technology in the development process CO4: Compare cross-country data, including through computational tools CO5. Analyze the alternative models of sustainable development in the face of looming climate crisis Course Topics: 1. \u2018Growth\u2019 in History of Economic Thought: The importance of economic growth from classical political economy to development economics. 2. Growth vs. Development:The ideas differentiating growth and development in early development economics. Growth as necessary but not sufficient for development. ",
     "coursePrerequisites": "BTech Students: Intro to Human Sciences, CHD Students: 3rd and 4th years",
     "courseGradingPolicy": {
       "mid_sem_exam": [
@@ -2924,7 +2924,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS8.402",
@@ -2953,7 +2953,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS1.502",
@@ -2962,7 +2962,7 @@
     "courseCredits": "UNKNOWN",
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : After the completion of this course successfully, the students will be able to 1. Apply various Information Theoretic tools in the problems of Discrete Mathematics. 2. Demonstrate a familiarity with non-trivial proofs of combinatorial results like Shearer’s lemma and Bregman’s theorem using Entropy. 3. Articulate the underlying interconnections between the concepts of Information Theory and Computer Science. 4. Illustrate the applications of various statistical distances in theoretical computer science. 5. Explain the role of Information-Theoretic quantities in Machine Learning models like GANs. Course Topics : A tentative list of topics to be covered in this course is below. Module 0 : Review of Basics of Probability Theory. Module 1 : Entropy and Its Properties: Entropy",
+    "courseDescription": "Course Outcomes : After the completion of this course successfully, the students will be able to 1. Apply various Information Theoretic tools in the problems of Discrete Mathematics. 2. Demonstrate a familiarity with non-trivial proofs of combinatorial results like Shearer\u2019s lemma and Bregman\u2019s theorem using Entropy. 3. Articulate the underlying interconnections between the concepts of Information Theory and Computer Science. 4. Illustrate the applications of various statistical distances in theoretical computer science. 5. Explain the role of Information-Theoretic quantities in Machine Learning models like GANs. Course Topics : A tentative list of topics to be covered in this course is below. Module 0 : Review of Basics of Probability Theory. Module 1 : Entropy and Its Properties: Entropy",
     "coursePrerequisites": "Mathematical Maturity and Basics of Probability Theory - Random variable (RV), Joint and Conditional Probability Distributions, Expected Value of a RV, Linearity of Expectation, No Background on Entropy or Information Theory is assumed for the course.",
     "courseGradingPolicy": {
       "assignments": [
@@ -2986,7 +2986,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS3.404",
@@ -2995,7 +2995,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : A systems level understanding of distributed application platforms through building a contemporary platform.Key objectives of the course: CO1: Understand Middleware systems concepts: CO2: Understand Distributed Application Platforms through a project-based system building course structure. CO3: Understand Key aspects of distributed applications, and the requirements from an underlying applications’ platform CO4:Understand the design of key subsystems of a contemporary application platform, and the same to be built as part of the course project Course Topics : Following topics will be covered in the context of the course project. Specific to the course project. Lectures – 4 or 5 3-hour classes per Module • M1- Understand essence of middlewares and distributed object techno",
+    "courseDescription": "Course Outcomes : A systems level understanding of distributed application platforms through building a contemporary platform.Key objectives of the course: CO1: Understand Middleware systems concepts: CO2: Understand Distributed Application Platforms through a project-based system building course structure. CO3: Understand Key aspects of distributed applications, and the requirements from an underlying applications\u2019 platform CO4:Understand the design of key subsystems of a contemporary application platform, and the same to be built as part of the course project Course Topics : Following topics will be covered in the context of the course project. Specific to the course project. Lectures \u2013 4 or 5 3-hour classes per Module \u2022 M1- Understand essence of middlewares and distributed object techno",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "class_quizzes": [
@@ -3019,7 +3019,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "EC2.204",
@@ -3028,7 +3028,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes (COs) After completion of this course successfully, the students will be able to CO-1. Explain Instruction Set Architecture (ISA) and the different paradigms RISC and CISC. CO-2. Employ the different instructions and addressing modes to write assembly programs. CO-3. Describe the instruction encoding in an ISA. CO-4. Design and Develop Sequential and Pipelined Implementation of a Processor. CO-5. Explain the different types of cache memories in memory hierarchy and its impact. CO-6. Explain the importance of virtual memory and associated concepts such as page table, page faults and address translation. Detailed Syllabus Unit 1:Introduction to Processor Architecture – Definition of Computer System, Models of Computer Architecture, Programming Abstractions, Definition of Inst",
+    "courseDescription": "Course Outcomes (COs) After completion of this course successfully, the students will be able to CO-1. Explain Instruction Set Architecture (ISA) and the different paradigms RISC and CISC. CO-2. Employ the different instructions and addressing modes to write assembly programs. CO-3. Describe the instruction encoding in an ISA. CO-4. Design and Develop Sequential and Pipelined Implementation of a Processor. CO-5. Explain the different types of cache memories in memory hierarchy and its impact. CO-6. Explain the importance of virtual memory and associated concepts such as page table, page faults and address translation. Detailed Syllabus Unit 1:Introduction to Processor Architecture \u2013 Definition of Computer System, Models of Computer Architecture, Programming Abstractions, Definition of Inst",
     "coursePrerequisites": "Digital Systems and Microcontrollers",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -3044,7 +3044,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "EC4.202",
@@ -3073,7 +3073,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "EC4.402",
@@ -3098,7 +3098,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "CS1.305",
@@ -3107,7 +3107,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : At the end of the course, a student will be able to: CO–1: Demonstrate familiarity and scope of algorithm engineering CO2: Explain the significance of algorithm engineering and analyze the practical performance of algorithms in connection to the nature of input CO–3: Apply algorithm engineering principles to implement a variety of graph and semi-numerical algorithms Course Topics : 1. Introduction to algorithm engineering, its scope, and its importance–1 2. Cache-Aware Design: Algorithms and Techniques–1 3. Cache-Oblivious Design: Algorithms and Techniques-1 4. A Primer on Parallel Algorithms –3 5. Graph connectivity –2 6. Eccentricity and Diameter –2 7. Centrality Measures on Graphs–2 Teaching-Learning Strategies in brief (4-5 sentences): The course will have hands-on ex",
+    "courseDescription": "Course Outcomes : At the end of the course, a student will be able to: CO\u20131: Demonstrate familiarity and scope of algorithm engineering CO2: Explain the significance of algorithm engineering and analyze the practical performance of algorithms in connection to the nature of input CO\u20133: Apply algorithm engineering principles to implement a variety of graph and semi-numerical algorithms Course Topics : 1. Introduction to algorithm engineering, its scope, and its importance\u20131 2. Cache-Aware Design: Algorithms and Techniques\u20131 3. Cache-Oblivious Design: Algorithms and Techniques-1 4. A Primer on Parallel Algorithms \u20133 5. Graph connectivity \u20132 6. Eccentricity and Diameter \u20132 7. Centrality Measures on Graphs\u20132 Teaching-Learning Strategies in brief (4-5 sentences): The course will have hands-on ex",
     "coursePrerequisites": "first course on algorithms, programming, computer architecture/ organization",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -3127,7 +3127,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS9.311",
@@ -3152,7 +3152,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "EC5.205",
@@ -3161,7 +3161,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : After completion of this course successfully, the students will be able to: CO-1: Explain the importance of redundancy and block codes as well as their parameters CO-2: Discuss the characteristics of linear codes including generator matrix, parity-check matrix and dualcode CO-3: Apply encoding and decoding algorithms to linear codes CO-4: Analyze the dependence between various parameters of the codes CO-5: Construct Reed Solomon codes, BCH Codes and RM Codes, given the specifications of the problem. Course Topics : Unit 1: Noisy channels, Shannon’s Channel Capacity Theorem, block codes, encoding and decoding, maximum-likelihood decoding, minimum- distance decoding, Error detection and correction Unit 2: Bounds on Codes, Linear Codes, Minimum distance, generator and parity",
+    "courseDescription": "Course Outcomes : After completion of this course successfully, the students will be able to: CO-1: Explain the importance of redundancy and block codes as well as their parameters CO-2: Discuss the characteristics of linear codes including generator matrix, parity-check matrix and dualcode CO-3: Apply encoding and decoding algorithms to linear codes CO-4: Analyze the dependence between various parameters of the codes CO-5: Construct Reed Solomon codes, BCH Codes and RM Codes, given the specifications of the problem. Course Topics : Unit 1: Noisy channels, Shannon\u2019s Channel Capacity Theorem, block codes, encoding and decoding, maximum-likelihood decoding, minimum- distance decoding, Error detection and correction Unit 2: Bounds on Codes, Linear Codes, Minimum distance, generator and parity",
     "coursePrerequisites": "Linear Algebra",
     "courseGradingPolicy": {
       "quiz": [
@@ -3185,7 +3185,7 @@
         50
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "CS1.408",
@@ -3222,7 +3222,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS8.301",
@@ -3231,7 +3231,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes (COs) : After completion of this course successfully, the students will be able to CO-1: Demonstrate problem solving skills related to security CO-2: Demonstrate critical thinking skills CO-3: Demonstrate security protocolspractically CO-4: Demonstrate knowledge of Blockchain technology and its security aspects CO-5: Demonstrate knowledge ofDesign and analysis of Internet of Things (IoT)-related security protocols Detailed Syllabus: • Unit 1: Basics of Cryptography: Cryptographic goals and objectives; Types of attacks, passive and active attacks;Introduction to Number Theory; Complexity Theoretic Connections; Overview of symmetric and public key cryptography • Unit 2: Basics of System Security: Overview of intrusion detection: Types of intruders, intrusion detection and pre",
+    "courseDescription": "Course Outcomes (COs) : After completion of this course successfully, the students will be able to CO-1: Demonstrate problem solving skills related to security CO-2: Demonstrate critical thinking skills CO-3: Demonstrate security protocolspractically CO-4: Demonstrate knowledge of Blockchain technology and its security aspects CO-5: Demonstrate knowledge ofDesign and analysis of Internet of Things (IoT)-related security protocols Detailed Syllabus: \u2022 Unit 1: Basics of Cryptography: Cryptographic goals and objectives; Types of attacks, passive and active attacks;Introduction to Number Theory; Complexity Theoretic Connections; Overview of symmetric and public key cryptography \u2022 Unit 2: Basics of System Security: Overview of intrusion detection: Types of intruders, intrusion detection and pre",
     "coursePrerequisites": "Discrete Structures, Programming Languages",
     "courseGradingPolicy": {
       "in_class_tests": [
@@ -3251,7 +3251,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS7.401",
@@ -3260,7 +3260,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course Outcomes : After completion of this course successfully, the students will be able to – CO-1. Demonstrate the knowledge of stages and fundamental building blocks of NLP CO-2. Apply NLP machine learning algorithms for classification, representation, and parsing CO-3. Demonstrate the knowledge of Dense vector representation for NLP CO-4. Explain the concepts behind distributed semantics CO-5. Discuss the approaches to global and contextual semantic representation CO-6. Apply the above concepts for fundamental NLP tasks. Course Topics : Unit 1: Stages of NLP: from lexical to semantic. Fundamental Language processing: Tokenization, Language modeling, Text classification, Unit 2: Morphology, POS Tagging, Chunking, Discriminative vs generative modes, HMM and CRF Unit 3: Syntax parsing: Co",
+    "courseDescription": "Course Outcomes : After completion of this course successfully, the students will be able to \u2013 CO-1. Demonstrate the knowledge of stages and fundamental building blocks of NLP CO-2. Apply NLP machine learning algorithms for classification, representation, and parsing CO-3. Demonstrate the knowledge of Dense vector representation for NLP CO-4. Explain the concepts behind distributed semantics CO-5. Discuss the approaches to global and contextual semantic representation CO-6. Apply the above concepts for fundamental NLP tasks. Course Topics : Unit 1: Stages of NLP: from lexical to semantic. Fundamental Language processing: Tokenization, Language modeling, Text classification, Unit 2: Morphology, POS Tagging, Chunking, Discriminative vs generative modes, HMM and CRF Unit 3: Syntax parsing: Co",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "quiz": [
@@ -3284,7 +3284,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CL1-102",
@@ -3313,7 +3313,7 @@
         100
       ]
     },
-    "color": "sky"
+    "color": "lime"
   },
   {
     "courseCode": "SC1.420",
@@ -3338,7 +3338,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS0.304",
@@ -3383,7 +3383,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "GS0.301",
@@ -3408,7 +3408,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "sky"
   },
   {
     "courseCode": "EC5.206",
@@ -3417,7 +3417,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "1. Apply concepts from signal processing and probability to study autoregressive (AR), moving average (MA), and ARMA random processes. 2. Analyze stationary signals using optimum linear filters like Wiener filter. 3. Analyze non-stationary signals using adaptive filters such as least mean squares (LMS) filter, recursive least squares (RLS) filter, and their variants. 4. Estimate and track evolving state space using Kalman filter and its variants. 5. Design adaptive filters for applications such as prediction, tracking, filtering, and noise cancellation. Introduction to Statistical Signal Processing combines ideas from signals processing and probability to process stochastic signals. Overview of random processes – stationary process, power spectral density, white noise. Linear time-invarian",
+    "courseDescription": "1. Apply concepts from signal processing and probability to study autoregressive (AR), moving average (MA), and ARMA random processes. 2. Analyze stationary signals using optimum linear filters like Wiener filter. 3. Analyze non-stationary signals using adaptive filters such as least mean squares (LMS) filter, recursive least squares (RLS) filter, and their variants. 4. Estimate and track evolving state space using Kalman filter and its variants. 5. Design adaptive filters for applications such as prediction, tracking, filtering, and noise cancellation. Introduction to Statistical Signal Processing combines ideas from signals processing and probability to process stochastic signals. Overview of random processes \u2013 stationary process, power spectral density, white noise. Linear time-invarian",
     "coursePrerequisites": "Signal Processing, Probability & Random Processes",
     "courseGradingPolicy": {
       "quiz": [
@@ -3433,7 +3433,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "HS8.305",
@@ -3442,8 +3442,8 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO-1 Understand India’s key data sources Students will be able to critically read and analyse datasets such as the Census, NSS/PLFS, NFHS, ASI and administrative data, understanding their scope, limitations, and what they reveal about India’s population, economy, and society. CO-2 Evaluate Public Policy Using Data-Driven Reasoning Students will learn to connect empirical patterns with real-world policy issues—such as unemployment, gender gaps, migration, or inequality—and use data-driven reasoning to support or critique policy positions. CO-3 Identify how data shapes public narratives and recognise misleading uses of statistics. Students will develop the ability to detect common forms of data misinterpretation or manipulation in media/policy discourse and produce more responsible, transpar",
-    "coursePrerequisites": "Familiarity with any data analysis software – R, Stata, Python etc",
+    "courseDescription": "CO-1 Understand India\u2019s key data sources Students will be able to critically read and analyse datasets such as the Census, NSS/PLFS, NFHS, ASI and administrative data, understanding their scope, limitations, and what they reveal about India\u2019s population, economy, and society. CO-2 Evaluate Public Policy Using Data-Driven Reasoning Students will learn to connect empirical patterns with real-world policy issues\u2014such as unemployment, gender gaps, migration, or inequality\u2014and use data-driven reasoning to support or critique policy positions. CO-3 Identify how data shapes public narratives and recognise misleading uses of statistics. Students will develop the ability to detect common forms of data misinterpretation or manipulation in media/policy discourse and produce more responsible, transpar",
+    "coursePrerequisites": "Familiarity with any data analysis software \u2013 R, Stata, Python etc",
     "courseGradingPolicy": {
       "quiz": [
         30,
@@ -3525,7 +3525,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "In today’s era of Artificial Intelligence, Cloud Computing, and Data Analytics, engineering professionals face increasingly complex challenges around privacy, data protection, cyber ethics, and legal compliance. Understanding these dimensions is no longer optional—it is essential for driving responsible and sustainable innovation. Legal frameworks such as the EU’s General Data Protection Regulation (GDPR, 2018) and India’s Digital Personal Data Protection Act (DPDP Act, 2023) have set new global standards for how technology must respect individual rights and organisational accountability. As a result, tomorrow’s technology leaders must be equipped not only with technical expertise but also with a deep appreciation of the legal and ethical boundaries within which innovation thrives. The joi",
+    "courseDescription": "In today\u2019s era of Artificial Intelligence, Cloud Computing, and Data Analytics, engineering professionals face increasingly complex challenges around privacy, data protection, cyber ethics, and legal compliance. Understanding these dimensions is no longer optional\u2014it is essential for driving responsible and sustainable innovation. Legal frameworks such as the EU\u2019s General Data Protection Regulation (GDPR, 2018) and India\u2019s Digital Personal Data Protection Act (DPDP Act, 2023) have set new global standards for how technology must respect individual rights and organisational accountability. As a result, tomorrow\u2019s technology leaders must be equipped not only with technical expertise but also with a deep appreciation of the legal and ethical boundaries within which innovation thrives. The joi",
     "coursePrerequisites": "",
     "courseGradingPolicy": {
       "class_participation_and_reflection_notes": [
@@ -3545,7 +3545,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CG1.403",
@@ -3554,7 +3554,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "This course is designed for students to learn the core concepts of learning and memory mechanisms in the brain. The course will go in-depth and discuss important scientific experiments and theories, and neural models that have helped to shape the understanding of learning and memory behaviour. The content is a mix of cognition, neuroscience, and neural network models. • CO1- Understand the basic principles of learning and memory in the brain • CO2- Apply the fundamentals of behaviour to brain network models • CO3- Examine the experimental results from research in the field of learning and memory • CO4- Evaluate a chosen topic, understand its current status and propose new ideas • CO5- Develop an experimental design that can propel the field ahead Introductory Module • Psychology of Learnin",
+    "courseDescription": "This course is designed for students to learn the core concepts of learning and memory mechanisms in the brain. The course will go in-depth and discuss important scientific experiments and theories, and neural models that have helped to shape the understanding of learning and memory behaviour. The content is a mix of cognition, neuroscience, and neural network models. \u2022 CO1- Understand the basic principles of learning and memory in the brain \u2022 CO2- Apply the fundamentals of behaviour to brain network models \u2022 CO3- Examine the experimental results from research in the field of learning and memory \u2022 CO4- Evaluate a chosen topic, understand its current status and propose new ideas \u2022 CO5- Develop an experimental design that can propel the field ahead Introductory Module \u2022 Psychology of Learnin",
     "coursePrerequisites": "not applicable",
     "courseGradingPolicy": {
       "in_class_quizzes": [
@@ -3611,7 +3611,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "blue"
   },
   {
     "courseCode": "CL3.406",
@@ -3636,7 +3636,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "lime"
   },
   {
     "courseCode": "HS0.210",
@@ -3645,7 +3645,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Theodore Adorno famously said, “to write poetry after Auschwitz is barbaric.” He was clearly not talking about the act of writing poetry but rather the tension between ethics and aesthetics inherent in an act of artistic production that reproduces the cultural values of the society that generated the mass murder of Jews during WWII. How then does a writer presume to represent/re-present collective acts of extreme brutality while also not validating the culture that produces these violences? This course shall look at key pieces of literature emerging from periods of extreme violence and orchestrated genocide in the 20th and 21st century to examine and interrogate models of remembering, testimony and representation. Readings shall include writings on the Holocaust, the Partition of India and",
+    "courseDescription": "Theodore Adorno famously said, \u201cto write poetry after Auschwitz is barbaric.\u201d He was clearly not talking about the act of writing poetry but rather the tension between ethics and aesthetics inherent in an act of artistic production that reproduces the cultural values of the society that generated the mass murder of Jews during WWII. How then does a writer presume to represent/re-present collective acts of extreme brutality while also not validating the culture that produces these violences? This course shall look at key pieces of literature emerging from periods of extreme violence and orchestrated genocide in the 20th and 21st century to examine and interrogate models of remembering, testimony and representation. Readings shall include writings on the Holocaust, the Partition of India and",
     "coursePrerequisites": "Introduction to Human Sciences, Ethics 2 (Basics)",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -3706,7 +3706,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "SC4.411",
@@ -3735,7 +3735,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS8.101",
@@ -3744,7 +3744,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "This course will inform the student about the world in which they live. Rather than taking a chronological order, it will look at a few landmark events and processes which marked and produced our world. It is meant to fill in the information gap which students will have about the world we live in, but also give them a sense of how different disciplines and scholars look at the world, how the same processes often play out in different “fields” and how one influences the other. The objective is to both inform the students about the contemporary world and how it came to be, and to appreciate the various strands, the diversity of ideas and practices, which constitute it. The objective is also to teach the student how to analyse social, economic, political and intellectual trends in the world i",
+    "courseDescription": "This course will inform the student about the world in which they live. Rather than taking a chronological order, it will look at a few landmark events and processes which marked and produced our world. It is meant to fill in the information gap which students will have about the world we live in, but also give them a sense of how different disciplines and scholars look at the world, how the same processes often play out in different \u201cfields\u201d and how one influences the other. The objective is to both inform the students about the contemporary world and how it came to be, and to appreciate the various strands, the diversity of ideas and practices, which constitute it. The objective is also to teach the student how to analyse social, economic, political and intellectual trends in the world i",
     "coursePrerequisites": "Admission to the Human Sciences Dual Degree Programme",
     "courseGradingPolicy": {
       "term_paper_and_presentation": [
@@ -3789,7 +3789,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "SC5.450",
@@ -3814,7 +3814,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "MA8.402",
@@ -3823,7 +3823,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of the course, the students will be able to: 1. Understand and apply core concepts of financial markets, instruments, and pricing. 2. Model risk-free and risky assets using binomial trees and discrete-time frameworks. 3. Construct and evaluate portfolios using CAPM, diversification, and risk-return analysis. 4. Analyze and price derivatives and apply risk-neutral valuation in financial engineering. Following is the tentative list of topics, broadly divided into 4 modules, to be covered in this course in 24 lectures. (Each lecture is 90 mins) Module 1: Fundamentals of financial instruments (6 lectures) ● Overview of financial systems ● Market participants and historical evolution ● Annuities and perpetuities ● Zero-coupon and coupon bonds ● Forward contracts Module 2: Portf",
+    "courseDescription": "After completion of the course, the students will be able to: 1. Understand and apply core concepts of financial markets, instruments, and pricing. 2. Model risk-free and risky assets using binomial trees and discrete-time frameworks. 3. Construct and evaluate portfolios using CAPM, diversification, and risk-return analysis. 4. Analyze and price derivatives and apply risk-neutral valuation in financial engineering. Following is the tentative list of topics, broadly divided into 4 modules, to be covered in this course in 24 lectures. (Each lecture is 90 mins) Module 1: Fundamentals of financial instruments (6 lectures) \u25cf Overview of financial systems \u25cf Market participants and historical evolution \u25cf Annuities and perpetuities \u25cf Zero-coupon and coupon bonds \u25cf Forward contracts Module 2: Portf",
     "coursePrerequisites": "MA6.101 Probability and Statistics or Equivalent, CS 7.403 Statistical methods in AI",
     "courseGradingPolicy": {
       "quiz_1": [
@@ -3847,7 +3847,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "blue"
   },
   {
     "courseCode": "EC4.404",
@@ -3872,7 +3872,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "SC2.316",
@@ -3897,7 +3897,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "SC2.315",
@@ -3926,7 +3926,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS1.209",
@@ -3998,7 +3998,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "GS1.401",
@@ -4027,7 +4027,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "sky"
   },
   {
     "courseCode": "CS1.404",
@@ -4064,7 +4064,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "SC2.202",
@@ -4073,7 +4073,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO1: Explain various mechanisms of structural stability of organic compounds and their reactivities CO2: Apply the mechanisms to describe types of reactions using stability of reaction intermediates CO3: Analyze the outcomes of different organic reactions using the principles of structure and stability of reactants and intermediate compounds Concepts on structures, stabilities and reactivities Unit 1: Reactive intermediates: Formation, structure, stability and fate of various reactive intermediates (Carbanion, carbocation, carbenes, nitrenes, benzynes, free radicals) – Reactive intermediates in biology and environment Unit 2: Concepts of aromaticity Unit3: Molecular symmetry and chirality, Stereoisomerism, Classification of stereoisomerism, configuration, chiral centre, Axial chirality, pl",
+    "courseDescription": "CO1: Explain various mechanisms of structural stability of organic compounds and their reactivities CO2: Apply the mechanisms to describe types of reactions using stability of reaction intermediates CO3: Analyze the outcomes of different organic reactions using the principles of structure and stability of reactants and intermediate compounds Concepts on structures, stabilities and reactivities Unit 1: Reactive intermediates: Formation, structure, stability and fate of various reactive intermediates (Carbanion, carbocation, carbenes, nitrenes, benzynes, free radicals) \u2013 Reactive intermediates in biology and environment Unit 2: Concepts of aromaticity Unit3: Molecular symmetry and chirality, Stereoisomerism, Classification of stereoisomerism, configuration, chiral centre, Axial chirality, pl",
     "coursePrerequisites": "NA",
     "courseGradingPolicy": {
       "assignments": [
@@ -4089,7 +4089,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "PD2.423",
@@ -4122,7 +4122,7 @@
         100
       ]
     },
-    "color": "teal"
+    "color": "yellow"
   },
   {
     "courseCode": "CS3.307",
@@ -4151,7 +4151,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "SC2.301",
@@ -4180,7 +4180,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "CS8.401",
@@ -4205,7 +4205,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "PD1.411",
@@ -4234,7 +4234,7 @@
         100
       ]
     },
-    "color": "orange"
+    "color": "yellow"
   },
   {
     "courseCode": "PD2.502",
@@ -4277,7 +4277,7 @@
         ]
       ]
     },
-    "color": "red"
+    "color": "yellow"
   },
   {
     "courseCode": "CS1.409",
@@ -4286,7 +4286,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After the completion of this course, the students will be able to: CO.1 (Understand level) – Demonstrate familiarity with the basic postulates of quantum mechanics, quantum circuits, quantum algorithmic primitives, various basic and advanced quantum algorithms and their running times, different quantum computational models CO.2 (Analyze level) – Analyze the behavior of basic and advanced quantum algorithms CO.3 (Evaluate level) – Review literature on the state-of-the-art quantum algorithms CO.4 (Evaluate level) – Evaluate the complexity of quantum algorithms in various computational models Unit 1: Introduction to quantum mechanics, qubits, quantum circuits, Deutsch Deutsch-Jozsa algorithm Unit 2: Quantum Fourier Transform, Simon’s algorithm, Quantum phase estimation, Shor’s Factoring Algor",
+    "courseDescription": "After the completion of this course, the students will be able to: CO.1 (Understand level) \u2013 Demonstrate familiarity with the basic postulates of quantum mechanics, quantum circuits, quantum algorithmic primitives, various basic and advanced quantum algorithms and their running times, different quantum computational models CO.2 (Analyze level) \u2013 Analyze the behavior of basic and advanced quantum algorithms CO.3 (Evaluate level) \u2013 Review literature on the state-of-the-art quantum algorithms CO.4 (Evaluate level) \u2013 Evaluate the complexity of quantum algorithms in various computational models Unit 1: Introduction to quantum mechanics, qubits, quantum circuits, Deutsch Deutsch-Jozsa algorithm Unit 2: Quantum Fourier Transform, Simon\u2019s algorithm, Quantum phase estimation, Shor\u2019s Factoring Algor",
     "coursePrerequisites": "Familiarity with basic Linear Algebra, probability theory, discrete math, algorithms, Knowledge of elementary quantum mechanics",
     "courseGradingPolicy": {
       "assignments": [
@@ -4306,7 +4306,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS1.505",
@@ -4315,7 +4315,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "The primary goal of this course is to enable students to perform research in this exciting newly emerging discipline. The students will be able to do the following: CO.1 (Understand level) — Demonstrate familiarity with the basic security definitions in the area, including those of verification of quantum computations, homomorphic computation, including those based on complexity theoretic assumptions such as the hardness of the learning with errors problems. CO.2 (Analyse) — Analyse whether a formal security definition is meaningfully capturing the relevant notion of security, and construct security proofs given explicit candidate constructions or show impossibility given a model of computation. CO.3 (Evaluate level) — Review the literature at the frontier of quantum cryptography and relat",
+    "courseDescription": "The primary goal of this course is to enable students to perform research in this exciting newly emerging discipline. The students will be able to do the following: CO.1 (Understand level) \u2014 Demonstrate familiarity with the basic security definitions in the area, including those of verification of quantum computations, homomorphic computation, including those based on complexity theoretic assumptions such as the hardness of the learning with errors problems. CO.2 (Analyse) \u2014 Analyse whether a formal security definition is meaningfully capturing the relevant notion of security, and construct security proofs given explicit candidate constructions or show impossibility given a model of computation. CO.3 (Evaluate level) \u2014 Review the literature at the frontier of quantum cryptography and relat",
     "coursePrerequisites": "Mathematical maturity from courses like Discrete Structures or Linear Algebra course, Familiarity with the basics of (classical) cryptography, quantum computation/information",
     "courseGradingPolicy": {
       "assignments_scribe": [
@@ -4331,7 +4331,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "HS1.302",
@@ -4340,7 +4340,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "On successful completion of this course, students will be able to 1. critically interpret, analyze, and appreciate Russian literature (and by extension, other kinds of texts and narratives as well) and its contributions to art and thought of the modern world; 2. examine and discuss the literary merit of creative texts beyond casual impressions or value judgements, acquiring – in the process – fundamental skills in oral and written communication; 3. connect human, creative expression to the issues that make up and are made by the world in which we live; 4. apply this basic foundation in the study of creative writing to conduct further research on literature, including computational research on topics associated with literature; and 5. understand the socio-historical background and material ",
+    "courseDescription": "On successful completion of this course, students will be able to 1. critically interpret, analyze, and appreciate Russian literature (and by extension, other kinds of texts and narratives as well) and its contributions to art and thought of the modern world; 2. examine and discuss the literary merit of creative texts beyond casual impressions or value judgements, acquiring \u2013 in the process \u2013 fundamental skills in oral and written communication; 3. connect human, creative expression to the issues that make up and are made by the world in which we live; 4. apply this basic foundation in the study of creative writing to conduct further research on literature, including computational research on topics associated with literature; and 5. understand the socio-historical background and material ",
     "coursePrerequisites": "BTech Students: Passed Intro to Human Sciences and one other HSS elective (Introduction to Literature desirable), CHD 3rd and 4th Year students",
     "courseGradingPolicy": {
       "quizzes": [
@@ -4394,7 +4394,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "• C0-1: Students will recognize possible harms that can be caused by modern AI capabilities • C0-2: Students will learn to reason about various perspectives on the trajectory of AI development and proliferation • C0-3: Students will learn about latest research agendas towards making AI systems safer • C0-4:Students will be able to design and run experiments for understanding capabilities of current AI systems. • C0-5: Students will conduct, develop, and practice the techniques needed to make AI systems safer through course project. Module 1: Introduction to AI Capabilities and Risks • AI Capabilities Improvement in last 5-10 years • Recap of Deep Learning Techniques, Language/Vision Models (through Tutorials) • Imminent risks from AI Models: Toxicity, bias, goal misspecification, adversari",
+    "courseDescription": "\u2022 C0-1: Students will recognize possible harms that can be caused by modern AI capabilities \u2022 C0-2: Students will learn to reason about various perspectives on the trajectory of AI development and proliferation \u2022 C0-3: Students will learn about latest research agendas towards making AI systems safer \u2022 C0-4:Students will be able to design and run experiments for understanding capabilities of current AI systems. \u2022 C0-5: Students will conduct, develop, and practice the techniques needed to make AI systems safer through course project. Module 1: Introduction to AI Capabilities and Risks \u2022 AI Capabilities Improvement in last 5-10 years \u2022 Recap of Deep Learning Techniques, Language/Vision Models (through Tutorials) \u2022 Imminent risks from AI Models: Toxicity, bias, goal misspecification, adversari",
     "coursePrerequisites": "MDL, Intro to NLP, Advanced NLP, Topics in DL, SMAI, NNLG, Maths in gen models, Topics in RL, Deep learning, Familiarity in PyTorch, SMAI/Intro to NLP/CV",
     "courseGradingPolicy": {
       "quizzes": [
@@ -4414,7 +4414,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "EC4.403",
@@ -4439,7 +4439,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "SC4.111",
@@ -4448,7 +4448,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completing this course successfully, the students will be able to CO-1: Setup and perform physics experiments to measure properties of materials like polarization, thermal conductance, natural frequency, energy band gap, etc. CO-2:Setup and perform chemistry experiments to synthesize and characterize materials. CO-3:Perform chemistry experiments to measure properties like absorbance/transmittance, pH, solubility, conductance, etc. 1. Unit-1: To Determine the Frequency of Tuning Fork by using Melde's Apparatus 2. Unit-2:To Determine the thermal conductance of bad conductor(s) by Lee-Charlotte’s Experiment 3. Unit-3: Determination of Polarising angle and refractive index of prism using Brewster's Law 4. Unit-4:Determine the numerical value of Planck’s constant using the photoelectric e",
+    "courseDescription": "After completing this course successfully, the students will be able to CO-1: Setup and perform physics experiments to measure properties of materials like polarization, thermal conductance, natural frequency, energy band gap, etc. CO-2:Setup and perform chemistry experiments to synthesize and characterize materials. CO-3:Perform chemistry experiments to measure properties like absorbance/transmittance, pH, solubility, conductance, etc. 1. Unit-1: To Determine the Frequency of Tuning Fork by using Melde's Apparatus 2. Unit-2:To Determine the thermal conductance of bad conductor(s) by Lee-Charlotte\u2019s Experiment 3. Unit-3: Determination of Polarising angle and refractive index of prism using Brewster's Law 4. Unit-4:Determine the numerical value of Planck\u2019s constant using the photoelectric e",
     "coursePrerequisites": "None",
     "courseGradingPolicy": {
       "laboratory_record": [
@@ -4468,7 +4468,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS7.301",
@@ -4553,7 +4553,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of this course successfully, the students will be able to… CO-1: Demonstrate familiarity with various process models, design patterns, architecture patterns and the characteristics of good software architectures CO-2 Apply principles of user interface design, sub-system design and analyze the designs for good Software Engineering principles CO-3: Demonstrate the use of tools to quantitatively measure and refactor existing software systems CO-4: Compare design trade-offs between different patterns and/or different implementations of the same pattern CO-5: Design the major components and user interface for a small-scale software system using modeling approaches such as UML class diagrams, and sequence diagrams CO-6: Critique the quality of a software design and use product q",
+    "courseDescription": "After completion of this course successfully, the students will be able to\u2026 CO-1: Demonstrate familiarity with various process models, design patterns, architecture patterns and the characteristics of good software architectures CO-2 Apply principles of user interface design, sub-system design and analyze the designs for good Software Engineering principles CO-3: Demonstrate the use of tools to quantitatively measure and refactor existing software systems CO-4: Compare design trade-offs between different patterns and/or different implementations of the same pattern CO-5: Design the major components and user interface for a small-scale software system using modeling approaches such as UML class diagrams, and sequence diagrams CO-6: Critique the quality of a software design and use product q",
     "coursePrerequisites": "Intro to Software Systems, Design and Analysis of Software Systems, Equivalent courses",
     "courseGradingPolicy": {
       "Final Exam": [
@@ -4577,7 +4577,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS3.302",
@@ -4586,7 +4586,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of this course successfully, the students will be able to CO-1. Explain the algorithmic optimizations necessary to improve the performance of a software on a uniprocessor. CO-2. Analyze cache dependent performance of algorithms CO-3. Employ cache-aware (such as tiling)/cache oblivious (such as recursive multiplication) optimizations to improve program performance CO-4. Analyze the software performance improvement using SIMD Array Processing and Vector Processing Architectures CO-5. Explain different concurrency platforms such as Pthreads, Threading Building Blocks. CO-6. Develop multicore programs using OpenMP pragmas CO-7. Explain the basics of GPU architecture Unit 1:Algorithmic optimizations – Introduction to optimization of matrix multiplication: Language dependent per",
+    "courseDescription": "After completion of this course successfully, the students will be able to CO-1. Explain the algorithmic optimizations necessary to improve the performance of a software on a uniprocessor. CO-2. Analyze cache dependent performance of algorithms CO-3. Employ cache-aware (such as tiling)/cache oblivious (such as recursive multiplication) optimizations to improve program performance CO-4. Analyze the software performance improvement using SIMD Array Processing and Vector Processing Architectures CO-5. Explain different concurrency platforms such as Pthreads, Threading Building Blocks. CO-6. Develop multicore programs using OpenMP pragmas CO-7. Explain the basics of GPU architecture Unit 1:Algorithmic optimizations \u2013 Introduction to optimization of matrix multiplication: Language dependent per",
     "coursePrerequisites": "Basics of Algorithm Analysis, Computer Architecture",
     "courseGradingPolicy": {
       "Quizzes": [
@@ -4602,7 +4602,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "GS2.503",
@@ -4611,14 +4611,14 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO-1: Describe how Spatial Data Science helps uncover patterns CO-2: Apply Geospatial techniques to Prepare the data for analysis CO-3: Analyze the spatial and temporal data and interpret its outcomes CO-4: Assessment of application of Spatial data science in key domain areas CO-5: Design research projects that helps synthesize the learning into an application Module 1: Introduction to Spatial Data Science - What is special about Spatial Data and Geo-AI? - How Spatial and Spatio-temporal Big Data helps uncover patterns? - Spatial Data Handling including spatial data models, data formats - Challenges to computing approaches when applied to Spatial Data – Effects of Topology Module 2: Geospatial Data Analysis and Modelling - Vector Data Spatial Analysis - Raster Data Spatial Analysis - How t",
+    "courseDescription": "CO-1: Describe how Spatial Data Science helps uncover patterns CO-2: Apply Geospatial techniques to Prepare the data for analysis CO-3: Analyze the spatial and temporal data and interpret its outcomes CO-4: Assessment of application of Spatial data science in key domain areas CO-5: Design research projects that helps synthesize the learning into an application Module 1: Introduction to Spatial Data Science - What is special about Spatial Data and Geo-AI? - How Spatial and Spatio-temporal Big Data helps uncover patterns? - Spatial Data Handling including spatial data models, data formats - Challenges to computing approaches when applied to Spatial Data \u2013 Effects of Topology Module 2: Geospatial Data Analysis and Modelling - Vector Data Spatial Analysis - Raster Data Spatial Analysis - How t",
     "coursePrerequisites": "Basic understanding of Locational Data and Computing",
     "courseGradingPolicy": {
       "Class Quizzes": [
         15,
         100
       ],
-      "Mid Sem Exams – 2": [
+      "Mid Sem Exams \u2013 2": [
         20,
         100
       ],
@@ -4664,7 +4664,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "SC1.205",
@@ -4689,7 +4689,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "CS7.403",
@@ -4722,7 +4722,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "PD2.403",
@@ -4731,7 +4731,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "This course aims to equip students with the financial and strategic tools to build a profitable, scalable startup. The key objectives are: ● To introduce frameworks for startup financial and operational strategy. ● To provide a deep, practical understanding of various revenue and pricing strategies across B2B and B2C models. ● To master the key performance metrics that inform strategic decision-making and measure a startup's health. ● To develop an actionable financial forecast and operational strategy focused on achieving profitability and extending runway. Upon successful completion of this course, students will be able to: ● CO1: Evaluate how changes in key business variables (e.g., pricing, customer acquisition cost, churn rate) impact a startup's financial projections and sustainabili",
+    "courseDescription": "This course aims to equip students with the financial and strategic tools to build a profitable, scalable startup. The key objectives are: \u25cf To introduce frameworks for startup financial and operational strategy. \u25cf To provide a deep, practical understanding of various revenue and pricing strategies across B2B and B2C models. \u25cf To master the key performance metrics that inform strategic decision-making and measure a startup's health. \u25cf To develop an actionable financial forecast and operational strategy focused on achieving profitability and extending runway. Upon successful completion of this course, students will be able to: \u25cf CO1: Evaluate how changes in key business variables (e.g., pricing, customer acquisition cost, churn rate) impact a startup's financial projections and sustainabili",
     "coursePrerequisites": "Exposure to business models and basic financial statements, Comfort with basic quantitative analysis (spreadsheets, ratios)",
     "courseGradingPolicy": {
       "End-Semester Exam": [
@@ -4747,7 +4747,7 @@
         100
       ]
     },
-    "color": "red"
+    "color": "yellow"
   },
   {
     "courseCode": "CS8.403",
@@ -4756,7 +4756,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of this course successfully, the students will be able to.. CO-1 Demonstrate a familiarity with concepts of computer attacks and core defense techniques CO-2 Discuss various vulnerability testing schemes CO-3 Apply the knowledge of cryptography to build secure and efficient communication channels CO-4 Analyze and compare mobile platform security architecture of iOS and Android CO-5 Design security modules against web and network attacks CO-6 Develop a framework to test web applications’ security Unit 1: Attacks and Vulnerabilities: Exploits and defenses in control hijacking attacks; principle of least privilege, access control, and operating systems security; isolation and sandboxing; vulnerability testing using fuzzing, static, and dynamic analysis; brief overview of cryp",
+    "courseDescription": "After completion of this course successfully, the students will be able to.. CO-1 Demonstrate a familiarity with concepts of computer attacks and core defense techniques CO-2 Discuss various vulnerability testing schemes CO-3 Apply the knowledge of cryptography to build secure and efficient communication channels CO-4 Analyze and compare mobile platform security architecture of iOS and Android CO-5 Design security modules against web and network attacks CO-6 Develop a framework to test web applications\u2019 security Unit 1: Attacks and Vulnerabilities: Exploits and defenses in control hijacking attacks; principle of least privilege, access control, and operating systems security; isolation and sandboxing; vulnerability testing using fuzzing, static, and dynamic analysis; brief overview of cryp",
     "coursePrerequisites": "Data Structures and Algorithms, Principles of Information Security",
     "courseGradingPolicy": {
       "Mid-term exams, quizzes": [
@@ -4772,7 +4772,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CS9.424",
@@ -4805,7 +4805,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "HS8.304",
@@ -4867,7 +4867,7 @@
         100
       ]
     },
-    "color": "emerald"
+    "color": "orange"
   },
   {
     "courseCode": "SC1.308",
@@ -4876,7 +4876,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completing this course successfully, the students will be able to • CO-1 Discover the physics at the scales of atoms and elementary particles • CO-2 Familiarize with the basics of relativity theory • CO-3 Demonstrate how patterns at the macroscopic level emerge from physics at the microscopic scale • CO-4 Explain the large-scale structure of the universe, including the essential evolutionary stages, like the inflationary stage, hot big-bang stage, nucleosynthesis, recombination, etc. • CO-5Recognize how physics at vastly different scales come together to shape the present universe The aim of the course is to present a broad overview of physics across different scales—from the quantum mechanical world of the elementary particles to gravity-controlled large-scale structures through phy",
+    "courseDescription": "After completing this course successfully, the students will be able to \u2022 CO-1 Discover the physics at the scales of atoms and elementary particles \u2022 CO-2 Familiarize with the basics of relativity theory \u2022 CO-3 Demonstrate how patterns at the macroscopic level emerge from physics at the microscopic scale \u2022 CO-4 Explain the large-scale structure of the universe, including the essential evolutionary stages, like the inflationary stage, hot big-bang stage, nucleosynthesis, recombination, etc. \u2022 CO-5Recognize how physics at vastly different scales come together to shape the present universe The aim of the course is to present a broad overview of physics across different scales\u2014from the quantum mechanical world of the elementary particles to gravity-controlled large-scale structures through phy",
     "coursePrerequisites": "High school-level physics and calculus, basic exposure to classical mechanics",
     "courseGradingPolicy": {
       "Assignments + Quizzes": [
@@ -4892,7 +4892,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS3.303",
@@ -4901,7 +4901,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "CO1: Define the concept of Nationalism. CO2: Explain range of academic theories interpreting Nationalism. CO3: Analyze the different characteristics which form Nationalism. CO4: Evaluate the positive and negative attributes of Nationalism. CO5: Develop their own understanding about the role of Nationalism in today’s world. (1) Academic theories of Nationalism a) Imagined Communities b) Industrialised Societies c) Colonial and Post-Colonial (2) Brief history of the nation-state in the world a) Latin America b) Europe c) Asia and Africa (3) Nationalism in India a) Cultural Nationalism b) Anti-Colonial Nationalism (4) Theories of Nationalism in India a) Gandhi b) Bankim c) Nehru d) Tagore e) Iqbal f) Savarkar, Golwalkar g) Jinnah The course will be based on classroom lectures and will require",
+    "courseDescription": "CO1: Define the concept of Nationalism. CO2: Explain range of academic theories interpreting Nationalism. CO3: Analyze the different characteristics which form Nationalism. CO4: Evaluate the positive and negative attributes of Nationalism. CO5: Develop their own understanding about the role of Nationalism in today\u2019s world. (1) Academic theories of Nationalism a) Imagined Communities b) Industrialised Societies c) Colonial and Post-Colonial (2) Brief history of the nation-state in the world a) Latin America b) Europe c) Asia and Africa (3) Nationalism in India a) Cultural Nationalism b) Anti-Colonial Nationalism (4) Theories of Nationalism in India a) Gandhi b) Bankim c) Nehru d) Tagore e) Iqbal f) Savarkar, Golwalkar g) Jinnah The course will be based on classroom lectures and will require",
     "coursePrerequisites": "Introduction to Human Sciences (HS8.102)",
     "courseGradingPolicy": {
       "Mid SemExam": [
@@ -4926,7 +4926,7 @@
     "courseCredits": 2,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of this course successfully, the students will be able to.. CO-1 State principles and laws of Thermodynamics CO-2 Apply thermodynamics to investigate natural phenomena CO-3 Apply thermodynamic principles to allied disciplines like information processing. Unit 1: 1. Thermodynamic space, system and surroundings, variable, function, Thermodynamic process and energy transaction: Work, Heat; Walls: Diathermal, Adiabatic, (im)permeable 1L 2. Properties of Gases: Perfect and real: 1L 3. Zeroth law and temperature, first law and internal energy, enthalpy, thermochemistry, Hess’s law :1L 4. Expansion Work, Isothermal and Adiabatic Changes, Heat capacity :1L Unit 2: 5. Second law and equivalence of different ways of stating it, Clausius inequality The Joule-Thomson Effect, Entropy, ",
+    "courseDescription": "After completion of this course successfully, the students will be able to.. CO-1 State principles and laws of Thermodynamics CO-2 Apply thermodynamics to investigate natural phenomena CO-3 Apply thermodynamic principles to allied disciplines like information processing. Unit 1: 1. Thermodynamic space, system and surroundings, variable, function, Thermodynamic process and energy transaction: Work, Heat; Walls: Diathermal, Adiabatic, (im)permeable 1L 2. Properties of Gases: Perfect and real: 1L 3. Zeroth law and temperature, first law and internal energy, enthalpy, thermochemistry, Hess\u2019s law :1L 4. Expansion Work, Isothermal and Adiabatic Changes, Heat capacity :1L Unit 2: 5. Second law and equivalence of different ways of stating it, Clausius inequality The Joule-Thomson Effect, Entropy, ",
     "coursePrerequisites": "Basic (High school) physics/chemistry",
     "courseGradingPolicy": {
       "Quiz": [
@@ -4942,16 +4942,16 @@
         100
       ]
     },
-    "color": "green"
+    "color": "teal"
   },
   {
     "courseCode": "HS0.201",
-    "courseName": "Thinking and Knowing in the Human Sciences – I",
+    "courseName": "Thinking and Knowing in the Human Sciences \u2013 I",
     "courseSubject": "Humanities",
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "After completion of this course successfully students will be able to: CO1: Explainthe basics of philosophical discourse and develop interpretative skills CO2: Demonstrate knowledge of conceptual challenges involved in philosophical analysis CO3: Discuss philosophical questions about the nature of thought, knowledge and understanding CO4: Analyzethe ways in which literary practices imagine and express our relation to the world. CO5: Survey sets of concepts and intellectual assumptions that constitute historical, cultural, textual, and critical methods of literary analyses CO6: Consider specific moments of intersection between “meta-inquiry” and questions of representation. Section A: Philosophy Unit I – Philosophical tools (5 hours): conceptual distinctions, argument analysis, definition, ",
+    "courseDescription": "After completion of this course successfully students will be able to: CO1: Explainthe basics of philosophical discourse and develop interpretative skills CO2: Demonstrate knowledge of conceptual challenges involved in philosophical analysis CO3: Discuss philosophical questions about the nature of thought, knowledge and understanding CO4: Analyzethe ways in which literary practices imagine and express our relation to the world. CO5: Survey sets of concepts and intellectual assumptions that constitute historical, cultural, textual, and critical methods of literary analyses CO6: Consider specific moments of intersection between \u201cmeta-inquiry\u201d and questions of representation. Section A: Philosophy Unit I \u2013 Philosophical tools (5 hours): conceptual distinctions, argument analysis, definition, ",
     "coursePrerequisites": "",
     "courseGradingPolicy": {
       "Assignments": [
@@ -5012,7 +5012,7 @@
         100
       ]
     },
-    "color": "yellow"
+    "color": "blue"
   },
   {
     "courseCode": "CS7.603",
@@ -5021,7 +5021,7 @@
     "courseCredits": 4,
     "courseSemester": "3-1",
     "courseDuration": "fullSem",
-    "courseDescription": "Course outcomes (CO's): After completion of the course, the students will be able to 1. ~ Analyze, understand and apply the theory of Markov Decision processes 2. ~ Analyze, understand and apply the theory of Reinforcement learning 3. ~ Implement reinforcement learning algorithms using Python 4. ~ Implement RL projects in group demonstrating use cases for topics learnt. Module 1: (3 lectures) ● Review of Probability and Stochastic Processes ● Markov Chains ● Introduction to Optimization ● Introduction to Dynamic programming and Markov Decision Processes Module 2: (5 lectures) ● Infinite horizon discounted MDP ● Bellman Optimality Criteria ● Value Iteration & Policy Iteration ● Average cost criteria Module 3; (6 lectures) ● Introduction to RL ● Monte Carlo methods ● TD Learning, Q-learning ",
+    "courseDescription": "Course outcomes (CO's): After completion of the course, the students will be able to 1. ~ Analyze, understand and apply the theory of Markov Decision processes 2. ~ Analyze, understand and apply the theory of Reinforcement learning 3. ~ Implement reinforcement learning algorithms using Python 4. ~ Implement RL projects in group demonstrating use cases for topics learnt. Module 1: (3 lectures) \u25cf Review of Probability and Stochastic Processes \u25cf Markov Chains \u25cf Introduction to Optimization \u25cf Introduction to Dynamic programming and Markov Decision Processes Module 2: (5 lectures) \u25cf Infinite horizon discounted MDP \u25cf Bellman Optimality Criteria \u25cf Value Iteration & Policy Iteration \u25cf Average cost criteria Module 3; (6 lectures) \u25cf Introduction to RL \u25cf Monte Carlo methods \u25cf TD Learning, Q-learning ",
     "coursePrerequisites": "MA6.101 Probability and Statistics or Equivalent",
     "courseGradingPolicy": {
       "Quiz-1": [
@@ -5049,7 +5049,7 @@
         100
       ]
     },
-    "color": "blue"
+    "color": "green"
   },
   {
     "courseCode": "CL5.401",
@@ -5074,7 +5074,7 @@
         100
       ]
     },
-    "color": "green"
+    "color": "lime"
   },
   {
     "courseCode": "CS5.401",
@@ -5117,6 +5117,6 @@
         ]
       ]
     },
-    "color": "blue"
+    "color": "green"
   }
 ]
