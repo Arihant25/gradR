@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Science,_Technology_and_SocietyPage = () => {
+const Science__Technology_and_SocietyPage = () => {
   const courseCode = 'HS7.301';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Science,_Technology_and_SocietyPage = () => {
   );
 };
 
-export default Science,_Technology_and_SocietyPage;
+export default Science__Technology_and_SocietyPage;
 

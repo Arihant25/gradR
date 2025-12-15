@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Intro_to_Robotics:_Perception_and_PlanningPage = () => {
+const Intro_to_Robotics__Perception_and_PlanningPage = () => {
   const courseCode = 'EC4.202';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Intro_to_Robotics:_Perception_and_PlanningPage = () => {
   );
 };
 
-export default Intro_to_Robotics:_Perception_and_PlanningPage;
+export default Intro_to_Robotics__Perception_and_PlanningPage;
 

@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Law,_Technology_and_Digital_GovernancePage = () => {
+const Law__Technology_and_Digital_GovernancePage = () => {
   const courseCode = 'CS6.504';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Law,_Technology_and_Digital_GovernancePage = () => {
   );
 };
 
-export default Law,_Technology_and_Digital_GovernancePage;
+export default Law__Technology_and_Digital_GovernancePage;
 

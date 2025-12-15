@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Bio_Instrumentation_&_DevicesPage = () => {
+const Bio_Instrumentation___DevicesPage = () => {
   const courseCode = 'UNKNOWN';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Bio_Instrumentation_&_DevicesPage = () => {
   );
 };
 
-export default Bio_Instrumentation_&_DevicesPage;
+export default Bio_Instrumentation___DevicesPage;
 

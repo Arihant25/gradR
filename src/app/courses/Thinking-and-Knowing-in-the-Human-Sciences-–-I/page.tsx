@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Thinking_and_Knowing_in_the_Human_Sciences_–_IPage = () => {
+const Thinking_and_Knowing_in_the_Human_Sciences___IPage = () => {
   const courseCode = 'HS0.201';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Thinking_and_Knowing_in_the_Human_Sciences_–_IPage = () => {
   );
 };
 
-export default Thinking_and_Knowing_in_the_Human_Sciences_–_IPage;
+export default Thinking_and_Knowing_in_the_Human_Sciences___IPage;
 

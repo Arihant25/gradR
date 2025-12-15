@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Art,_Vision,_&_Feelings:_Psychological,_Biological,_and_Computational_Perspectives_on_Beholder’s_POVPage = () => {
+const Art__Vision____Feelings__Psychological__Biological__and_Computational_Perspectives_on_Beholder_s_POVPage = () => {
   const courseCode = 'CG5.405';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Art,_Vision,_&_Feelings:_Psychological,_Biological,_and_Computational_Pers
   );
 };
 
-export default Art,_Vision,_&_Feelings:_Psychological,_Biological,_and_Computational_Perspectives_on_Beholder’s_POVPage;
+export default Art__Vision____Feelings__Psychological__Biological__and_Computational_Perspectives_on_Beholder_s_POVPage;
 

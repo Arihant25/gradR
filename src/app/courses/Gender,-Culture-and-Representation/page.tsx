@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Gender,_Culture_and_RepresentationPage = () => {
+const Gender__Culture_and_RepresentationPage = () => {
   const courseCode = 'HS8.202';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Gender,_Culture_and_RepresentationPage = () => {
   );
 };
 
-export default Gender,_Culture_and_RepresentationPage;
+export default Gender__Culture_and_RepresentationPage;
 

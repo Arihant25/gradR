@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Introduction_to_Linguistics_2:_Semantics,_Pragmatics_and_DiscoursePage = () => {
+const Introduction_to_Linguistics_2__Semantics__Pragmatics_and_DiscoursePage = () => {
   const courseCode = 'CL1-102';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Introduction_to_Linguistics_2:_Semantics,_Pragmatics_and_DiscoursePage = (
   );
 };
 
-export default Introduction_to_Linguistics_2:_Semantics,_Pragmatics_and_DiscoursePage;
+export default Introduction_to_Linguistics_2__Semantics__Pragmatics_and_DiscoursePage;
 

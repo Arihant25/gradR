@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const The_Mathematics_of_Information:_Theory_and_ApplicationPage = () => {
+const The_Mathematics_of_Information__Theory_and_ApplicationPage = () => {
   const courseCode = 'EC5.207';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const The_Mathematics_of_Information:_Theory_and_ApplicationPage = () => {
   );
 };
 
-export default The_Mathematics_of_Information:_Theory_and_ApplicationPage;
+export default The_Mathematics_of_Information__Theory_and_ApplicationPage;
 

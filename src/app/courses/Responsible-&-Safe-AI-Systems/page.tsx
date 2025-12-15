@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Responsible_&_Safe_AI_SystemsPage = () => {
+const Responsible___Safe_AI_SystemsPage = () => {
   const courseCode = 'CS7.405';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Responsible_&_Safe_AI_SystemsPage = () => {
   );
 };
 
-export default Responsible_&_Safe_AI_SystemsPage;
+export default Responsible___Safe_AI_SystemsPage;
 

@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Information-Theoretic_Methods_in_Computer_SciencePage = () => {
+const Information_Theoretic_Methods_in_Computer_SciencePage = () => {
   const courseCode = 'CS1.502';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Information-Theoretic_Methods_in_Computer_SciencePage = () => {
   );
 };
 
-export default Information-Theoretic_Methods_in_Computer_SciencePage;
+export default Information_Theoretic_Methods_in_Computer_SciencePage;
 

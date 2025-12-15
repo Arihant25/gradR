@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Introduction_to_Spatial_Sciences_&_TechnologyPage = () => {
+const Introduction_to_Spatial_Sciences___TechnologyPage = () => {
   const courseCode = 'GS0.301';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Introduction_to_Spatial_Sciences_&_TechnologyPage = () => {
   );
 };
 
-export default Introduction_to_Spatial_Sciences_&_TechnologyPage;
+export default Introduction_to_Spatial_Sciences___TechnologyPage;
 

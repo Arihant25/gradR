@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Readings_in_Russian_Literature:_The_Nineteenth_CenturyPage = () => {
+const Readings_in_Russian_Literature__The_Nineteenth_CenturyPage = () => {
   const courseCode = 'HS1.302';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Readings_in_Russian_Literature:_The_Nineteenth_CenturyPage = () => {
   );
 };
 
-export default Readings_in_Russian_Literature:_The_Nineteenth_CenturyPage;
+export default Readings_in_Russian_Literature__The_Nineteenth_CenturyPage;
 

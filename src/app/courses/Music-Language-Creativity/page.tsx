@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Music-Language-CreativityPage = () => {
+const Music_Language_CreativityPage = () => {
   const courseCode = 'HS1.209';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Music-Language-CreativityPage = () => {
   );
 };
 
-export default Music-Language-CreativityPage;
+export default Music_Language_CreativityPage;
 

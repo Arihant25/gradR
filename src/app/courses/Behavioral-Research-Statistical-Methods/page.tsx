@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Behavioral_Research:_Statistical_MethodsPage = () => {
+const Behavioral_Research__Statistical_MethodsPage = () => {
   const courseCode = 'CG3.403';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Behavioral_Research:_Statistical_MethodsPage = () => {
   );
 };
 
-export default Behavioral_Research:_Statistical_MethodsPage;
+export default Behavioral_Research__Statistical_MethodsPage;
 

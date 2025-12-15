@@ -19,7 +19,8 @@ while read -r COURSE_DATA; do
   COURSE_CODE=$(echo "$COURSE_DATA" | jq -r '.courseCode')
 
   # Replace spaces in the course name with underscores for the page content
-  COURSE_NAME_UNDERSCORE=$(echo "$COURSE_DATA" | jq -r '.courseName' | tr ' ' '_')
+  # Remove or replace invalid JavaScript identifier characters: &, :, ,, ', -, and other special chars
+  COURSE_NAME_UNDERSCORE=$(echo "$COURSE_DATA" | jq -r '.courseName' | sed 's/[^a-zA-Z0-9]/_/g')
 
   # Create the course folder
   COURSE_DIR="$BASE_DIR/$COURSE_NAME"

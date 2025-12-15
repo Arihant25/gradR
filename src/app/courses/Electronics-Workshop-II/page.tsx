@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Electronics_Workshop-IIPage = () => {
+const Electronics_Workshop_IIPage = () => {
   const courseCode = 'EC2.202';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Electronics_Workshop-IIPage = () => {
   );
 };
 
-export default Electronics_Workshop-IIPage;
+export default Electronics_Workshop_IIPage;
 

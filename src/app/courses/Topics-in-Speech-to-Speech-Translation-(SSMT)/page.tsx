@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Topics_in_Speech-to-Speech_Translation_(SSMT)Page = () => {
+const Topics_in_Speech_to_Speech_Translation__SSMT_Page = () => {
   const courseCode = 'CL5.401';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Topics_in_Speech-to-Speech_Translation_(SSMT)Page = () => {
   );
 };
 
-export default Topics_in_Speech-to-Speech_Translation_(SSMT)Page;
+export default Topics_in_Speech_to_Speech_Translation__SSMT_Page;
 

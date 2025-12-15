@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Analysis_&Design_of_Precast_and_Prestressed_StructuresPage = () => {
+const Analysis__Design_of_Precast_and_Prestressed_StructuresPage = () => {
   const courseCode = 'CE1.608';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Analysis_&Design_of_Precast_and_Prestressed_StructuresPage = () => {
   );
 };
 
-export default Analysis_&Design_of_Precast_and_Prestressed_StructuresPage;
+export default Analysis__Design_of_Precast_and_Prestressed_StructuresPage;
 

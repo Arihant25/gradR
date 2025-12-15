@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const Linguistic_Data_III-Data_modelling_in_ILsPage = () => {
+const Linguistic_Data_III_Data_modelling_in_ILsPage = () => {
   const courseCode = 'CL3.406';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const Linguistic_Data_III-Data_modelling_in_ILsPage = () => {
   );
 };
 
-export default Linguistic_Data_III-Data_modelling_in_ILsPage;
+export default Linguistic_Data_III_Data_modelling_in_ILsPage;
 

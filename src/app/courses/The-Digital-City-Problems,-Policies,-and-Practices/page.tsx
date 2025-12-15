@@ -8,7 +8,7 @@ interface CourseGradingData {
   [key: string]: string | number;
 }
 
-const The_Digital_City:_Problems,_Policies,_and_PracticesPage = () => {
+const The_Digital_City__Problems__Policies__and_PracticesPage = () => {
   const courseCode = 'HS8.304';
   const courseData = coursesData.find((course) => course.courseCode === courseCode);
   const [gradingData, setGradingData] = useState<CourseGradingData[]>([]);
@@ -54,5 +54,5 @@ const The_Digital_City:_Problems,_Policies,_and_PracticesPage = () => {
   );
 };
 
-export default The_Digital_City:_Problems,_Policies,_and_PracticesPage;
+export default The_Digital_City__Problems__Policies__and_PracticesPage;
 
