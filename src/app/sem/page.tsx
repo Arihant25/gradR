@@ -46,7 +46,11 @@ const SEMPage: React.FC = () => {
   useEffect(() => {
     if (courses) {
       const filteredCourses = courses.filter((course: Course) => {
-        return course.courseSemester === currentSemester.substring(4);;
+        if (currentSemester === 'Etc.') {
+          return course.courseSemester.startsWith('3-');
+        } else {
+          return course.courseSemester === currentSemester.substring(4);
+        }
       });
       setSemesterCourses(filteredCourses);
     }
@@ -79,7 +83,7 @@ const SEMPage: React.FC = () => {
 
           {showDropdown && (
             <div className="absolute top-20 bg-white rounded-lg shadow-xl z-10 text-black text-center border-2 border-gray-300">
-              {['Sem 1-1', 'Sem 1-2', 'Sem 2-1', 'Sem 2-2', 'Sem 3+'].map((semester) => (
+              {['Sem 1-1', 'Sem 1-2', 'Sem 2-1', 'Sem 2-2', 'Etc.'].map((semester) => (
                 <div
                   key={semester}
                   className="py-3 px-8 text-sm sm:text-3xl hover:bg-gray-100 cursor-pointer border-b-2 border-gray-300 last:border-b-0"
